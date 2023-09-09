@@ -14,10 +14,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 11vh;
+    height: 13vh;
     width: 100%;
     padding:0 2rem;
-    /* background-color: lightblue; */
+    /* background-color: lightblue;q */
 }
 #navbar .logo{
     flex: 1;
@@ -48,6 +48,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -72,12 +73,15 @@ nav a:hover span {
 .dropdown-content {
     height: 0;
     position: absolute;
-    /* border: 1px solid rgb(226, 226, 226); */
+    border: 1px solid rgb(226, 226, 226);
+    background-color: white;
     transition: .5s ease;
     display: flex;
     flex-direction: column;
     opacity: 0;
+    z-index: 1;
     overflow: hidden;
+    align-items: flex-start;
 }
 .dropdown-content:hover+a>span{
     transform: rotate(180deg);
@@ -89,8 +93,7 @@ nav a:hover span {
 }
 
 .dropdown-content li:hover {
-    background-color:var(--primary_color);
-    color: white;
+    background-color:white;
     border-radius: 2px;
 }
 .dropdown-content li {
@@ -98,8 +101,18 @@ nav a:hover span {
     /* background-color: rgb(235, 235, 235); */
     margin-bottom: 2px;
 }
+.search_box{
+    position: relative;
+}
+.search_box span{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(92, 92, 92);
+    transform: translateY(-50%);
+}
 .search_bar{
-    padding: 5px 12px;
-    border: 1px solid black;
+    padding: 10px 12px 10px 30px;
+    border: 1px solid rgb(97, 97, 97);
     outline: none;
 }
