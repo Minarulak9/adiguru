@@ -114,17 +114,20 @@ nav a:hover span {
     /* background-color: rgb(235, 235, 235); */
     margin-bottom: 2px;
 }
-.search_box{
+
+.search_box {
     position: relative;
 }
-.search_box span{
+
+.search_box span {
     position: absolute;
     top: 50%;
     left: 5px;
     color: rgb(92, 92, 92);
     transform: translateY(-50%);
 }
-.search_bar{
+
+.search_bar {
     padding: 10px 12px 10px 30px;
     border: 1px solid rgb(97, 97, 97);
     outline: none;
@@ -229,6 +232,7 @@ nav a:hover span {
 .cards {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 6rem;
     gap: 3.5rem;
@@ -309,15 +313,7 @@ nav a:hover span {
     justify-content: center;
 }
 
-
-
-.box {
-   
-    flex-shrink: 0;
-    
-    
-}
-.box img{
+.box img {
     width: 300px;
     height: 300px;
     object-fit: fill;
@@ -343,8 +339,8 @@ nav a:hover span {
 .reviews {
     display: flex;
     flex-direction: column;
-    margin-top: 7rem;
     gap: 6rem;
+    padding: 6rem 0;
 }
 
 .reviews h2 {
@@ -356,4 +352,70 @@ nav a:hover span {
     font-style: normal;
     font-weight: 700;
     line-height: 65px;
+}
+
+.review-container {
+    margin: 0 30px;
+}
+
+.review {
+    width: 420px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 2rem;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #FF5C00;
+    background: #FFECE1;
+}
+
+.review p {
+    color: #000;
+    font-family: Poppins;
+    padding: 20px 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviewer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviewer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.reviewer span ,h4{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    padding-left: 10px;
+   
+}
+.reviewer span {
+    color: #000;
+    text-align: center;
+    font-family: Athelas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.reviewer h4 {
+    color: #575353;
+    text-align: center;
+    font-family: Athelas;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
