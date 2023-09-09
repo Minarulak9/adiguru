@@ -386,13 +386,16 @@ nav a:hover span {
     flex-direction: row;
     align-items: center;
 }
-.reviewer span ,h4{
+
+.reviewer span,
+h4 {
     display: flex;
     justify-content: flex-start;
     text-align: start;
     padding-left: 10px;
-   
+
 }
+
 .reviewer span {
     color: #000;
     text-align: center;
@@ -403,9 +406,10 @@ nav a:hover span {
     line-height: normal;
 }
 
-.reviewer img{
+.reviewer img {
     width: 45px;
 }
+
 .reviewer h4 {
     color: #575353;
     text-align: center;
@@ -415,38 +419,154 @@ nav a:hover span {
     font-weight: 700;
     line-height: normal;
 }
-.star{
+
+.star {
     display: flex;
 }
+
 /* slider */
 .swiper {
     width: 100%;
     height: 100%;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     background-color: var(--primary_color);
 }
-.swiper-pagination-bullet{
+
+.swiper-pagination-bullet {
     opacity: .8;
 }
-.swiper-pagination-bullet-active{
-      width: 15px;
-      opacity: 1;
-      height: 15px;
 
-  }
-  .swiper-pagination{
+.swiper-pagination-bullet-active {
+    width: 15px;
+    opacity: 1;
+    height: 15px;
+
+}
+
+.swiper-pagination {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
+
+footer {
+    width: 100%;
+    padding: 2rem 0;
+    background: url("../img/Rectangle 39.png");
+    object-fit: cover;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer-container h2 {
+    color: #FEFEFE;
+    font-family: Petrona;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-container h4 {
+    color: #E3E2E2;
+    font-family: Petrona;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 1rem 0;
+}
+
+
+.item {
+    padding: 3rem 0;
+}
+
+.adiguru {
+    text-align: center;
+}
+
+.adiguru img {
+    width: 70%;
+    height: 60%;
+    flex-shrink: 0;
+    border-radius: 152px;
+    background: lightgray 0px -216.354px / 100% 220.994% no-repeat;
+    background-blend-mode: screen;
+    mix-blend-mode: luminosity;
+}
+
+.help-container {
+    display: flex;
+    width: 500px;
+    gap: 6rem;
+}
+
+.icons {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.icons span {
+    padding: 0 1rem;
+    color: #E4DDD9;
+    font-family: Petrona;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    background-color: #FFF;
+    width: 90%;
+    height: 1.2px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+}
+
+.bottom h5 {
+    padding: 1rem 0;
+    color: #FFF;
+    font-family: Noto Sans KR;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
