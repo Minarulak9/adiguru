@@ -40,6 +40,8 @@ body {
 
 #navbar .btns {
     flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #navbar .logo .img img {
@@ -312,7 +314,7 @@ nav a:hover span {
     justify-content: center;
 }
 
-.box img {
+.teachers .box img {
     width: 300px;
     height: 300px;
     object-fit: fill;
@@ -569,4 +571,136 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.register_btn{
+    background-color: var(--primary_color);
+    padding: 8px 0 8px 10px;
+    text-decoration: none;
+    color: white;
+    width: 130px;
+    clip-path: polygon(100% 0, 100% 100%, 29% 100%, 0 100%, 18% 0);
+    display: flex;
+    justify-content: center;
+}
+.section_heading{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+#region{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to right,#FFFFFF,#FF5C00);
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+}
+#region .container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#region .container .box:hover img{
+    transform: scale(1.1);
+}
+#region .container .box{
+    min-width: 300px;
+    max-width: 350px;
+    aspect-ratio: 1/1;
+    border-radius: 12px;
+    background-color: white;
+    padding: .8rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4rem;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px -15px;
+}
+#region .container .box .para{
+    text-align: center;
+}
+#region .container .box .title{
+    font-size: 1.5rem;
+
+}
+#region .container .box img{
+    width: 100%;
+    transition: .4s;
+
+}
+
+#purpose{
+    display: flex;
+    gap: 2rem;
+    /* height: 70vh; */
+    padding: 0 2rem;
+    margin: 4rem 0;
+}
+#purpose .right .title{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#purpose .right .list li::marker{
+    color: #FE5115;
+}
+#purpose .right .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 0 2rem;
+}
+#purpose .right{
+    flex: 1;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#purpose .left{
+    flex: 1;
+    aspect-ratio: 6/5;
+    position: relative;
+    
+}
+#purpose .left .img{
+    position: absolute;
+    width: 50%;
+    padding: 1.5rem;
+    border: 1px solid #ffab7e;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#purpose .left .img img{
+    width: 100%;
+}
+#purpose .left .img.img1{
+    left: 0;
+    top: 10px;
+}
+#purpose .left .img.img2{
+    right: 0;
+    bottom: 0;
+}
+#purpose .left .img.img3{
+    left: 52%;
+    top: 16%;
+    width: 20%;
+}
+
+#join{
+    height: 40vh;
+    display: grid;
+    place-items: center;
+    margin-bottom: 3rem;
 }
