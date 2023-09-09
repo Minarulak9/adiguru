@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adiguru</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./src/style.css">
     <script src="./src/app.js" defer> </script>
 
@@ -180,33 +180,135 @@
             <div class="text">
                 <h2>Student Feedbacks</h2>
             </div>
-            <div class="review-container">
-                <div class="review review1">
-                    <p>I have been a student at Adiguru for the past year, and I must say that my experience has been
-                        truly transformative. </p>
-                    <div class="reviewer-container">
-                        <div class="reviewer">
-                            <img src="./img/Ellipse 16.png" alt="">
-                            <div class="name">
-                                <span>Roopam Barman</span>
-                                <h4>Chandpraksh Batch</h4>
+            
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"> 
+                        <div class="review review1">
+                            <p>I have been a student at Adiguru for the past year, and I must say that my experience has been
+                                truly transformative. </p>
+                            <div class="reviewer-container">
+                                <div class="reviewer">
+                                    <img src="./img/Ellipse 16.png" alt="">
+                                    <div class="name">
+                                        <span>Roopam Barman</span>
+                                        <h4>Chandpraksh Batch</h4>
+                                    </div>
+                                </div>
+                                <div class="star">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector (1).png" alt="">
+                                </div>
                             </div>
-
                         </div>
-                        <div class="star">
-                            <img src="./img/Vector.png" alt="">
-                            <img src="./img/Vector.png" alt="">
-                            <img src="./img/Vector.png" alt="">
-                            <img src="./img/Vector.png" alt="">
-                            <img src="./img/Vector (1).png" alt="">
-                        </div>
-
-
                     </div>
+                    <div class="swiper-slide"> 
+                        <div class="review review1">
+                            <p>I have been a student at Adiguru for the past year, and I must say that my experience has been
+                                truly transformative. </p>
+                            <div class="reviewer-container">
+                                <div class="reviewer">
+                                    <img src="./img/Ellipse 16.png" alt="">
+                                    <div class="name">
+                                        <span>Roopam Barman</span>
+                                        <h4>Chandpraksh Batch</h4>
+                                    </div>
+                                </div>
+                                <div class="star">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector (1).png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                        <div class="review review1">
+                            <p>I have been a student at Adiguru for the past year, and I must say that my experience has been
+                                truly transformative. </p>
+                            <div class="reviewer-container">
+                                <div class="reviewer">
+                                    <img src="./img/Ellipse 16.png" alt="">
+                                    <div class="name">
+                                        <span>Roopam Barman</span>
+                                        <h4>Chandpraksh Batch</h4>
+                                    </div>
+                                </div>
+                                <div class="star">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector (1).png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                        <div class="review review1">
+                            <p>I have been a student at Adiguru for the past year, and I must say that my experience has been
+                                truly transformative. </p>
+                            <div class="reviewer-container">
+                                <div class="reviewer">
+                                    <img src="./img/Ellipse 16.png" alt="">
+                                    <div class="name">
+                                        <span>Roopam Barman</span>
+                                        <h4>Chandpraksh Batch</h4>
+                                    </div>
+                                </div>
+                                <div class="star">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector.png" alt="">
+                                    <img src="./img/Vector (1).png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
+                <div class="swiper-pagination"></div>
+              </div>
         </div>
     </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
 
 </body>
 

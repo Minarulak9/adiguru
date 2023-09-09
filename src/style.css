@@ -209,8 +209,7 @@ nav a:hover span {
 
 .service {
     width: 100%;
-    height: 90vh;
-    margin: 6rem 0;
+    margin: 3rem 0;
 }
 
 .text {
@@ -223,7 +222,7 @@ nav a:hover span {
     color: #000;
     text-align: center;
     font-family: Athelas;
-    font-size: 75px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: 65px;
@@ -234,8 +233,8 @@ nav a:hover span {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 6rem;
-    gap: 3.5rem;
+    margin-top: 3rem;
+    gap: 3rem;
 
 }
 
@@ -297,8 +296,8 @@ nav a:hover span {
 .teachers-details {
     display: flex;
     flex-direction: column;
-    margin: 6rem 0;
-    padding: 5rem 0;
+    margin: 1rem 0;
+    padding: 3rem 0;
     gap: 6rem;
     align-items: center;
     width: 100%;
@@ -339,8 +338,8 @@ nav a:hover span {
 .reviews {
     display: flex;
     flex-direction: column;
-    gap: 6rem;
-    padding: 6rem 0;
+    padding: 3rem 1rem;
+    height: 550px;
 }
 
 .reviews h2 {
@@ -348,33 +347,28 @@ nav a:hover span {
     color: #000;
     text-align: center;
     font-family: Athelas;
-    font-size: 75px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: 65px;
 }
 
-.review-container {
-    margin: 0 30px;
-}
-
 .review {
-    width: 420px;
-    height: 300px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    gap: 2rem;
+    gap: .5rem;
     flex-shrink: 0;
-    border-radius: 30px;
+    border-radius: 20px;
     border: 1px solid #FF5C00;
     background: #FFECE1;
 }
 
 .review p {
     color: #000;
-    font-family: Poppins;
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    text-align: left;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -383,7 +377,6 @@ nav a:hover span {
 
 .reviewer-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -410,6 +403,9 @@ nav a:hover span {
     line-height: normal;
 }
 
+.reviewer img{
+    width: 45px;
+}
 .reviewer h4 {
     color: #575353;
     text-align: center;
@@ -419,3 +415,38 @@ nav a:hover span {
     font-weight: 700;
     line-height: normal;
 }
+.star{
+    display: flex;
+}
+/* slider */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    background-color: var(--primary_color);
+}
+.swiper-pagination-bullet{
+    opacity: .8;
+}
+.swiper-pagination-bullet-active{
+      width: 15px;
+      opacity: 1;
+      height: 15px;
+
+  }
+  .swiper-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
