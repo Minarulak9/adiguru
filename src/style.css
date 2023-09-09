@@ -195,6 +195,7 @@ nav a:hover span {
 .service {
     width: 100%;
     height: 90vh;
+    margin: 6rem 0;
 }
 
 .text {
@@ -218,21 +219,23 @@ nav a:hover span {
     flex-direction: row;
     justify-content: center;
     margin-top: 6rem;
+    gap: 3.5rem;
+
 }
 
 .card {
-    margin: 20px;
-    width: 290px;
-    height: 290px;
+    width: 260px;
+    height: 260px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
     border-radius: 30px;
-    border: 2px solid #FF5C00;
-    background: #FFF;
+    border: 1px solid #FF5C00;
+    background: #FFECE1;
     box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0.25);
+
 
 }
 
@@ -245,25 +248,22 @@ nav a:hover span {
 .card h3 {
     color: #000;
     text-align: center;
-    font-family: Inder;
-    font-size: 30px;
+    /* font-family: Inder; */
+    font-size: 23px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 550;
     line-height: 69.8%;
     /* 22.336px */
 }
 
 .card p {
-    width: 280px;
-    margin-top: 10px;
-    color: #616161;
+    width: 200px;
+    color: #FF8744;
     text-align: center;
-    font-family: Inder;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 94.8%;
-    /* 22.752px */
 }
 
 .img-container {
@@ -277,46 +277,66 @@ nav a:hover span {
     border-radius: 50%;
 
 }
-.teachers-details{
+
+.teachers-details {
     display: flex;
     flex-direction: column;
+    margin: 6rem 0;
+    padding: 5rem 0;
     gap: 6rem;
     align-items: center;
+    width: 100%;
+    background: url("../img/Rectangle\ 36.png");
+
 }
+
 .teachers {
     display: flex;
     flex-wrap: wrap;
-    gap: 6rem;
+    gap: 9rem;
     justify-content: center;
 }
 
-.teacher img {
+
+
+.box {
     width: 300px;
     height: 300px;
-}
-
-.teacher h3 {
-    color: #000;
-    text-align: center;
-    font-family: Average;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 5px solid #000;
+    background: #D9D9D9;
 }
 
 .custom-btn button {
-    width: 300px;
-    height: 85px;
+    width: 230px;
+    height: 65px;
     flex-shrink: 0;
-    border-radius: 57px;
+    border-radius: 39px;
+    background: #FFA877;
     border: none;
-    background: #FF5C00;
-    color: #FFF;
+    color: #000;
     text-align: center;
-    font-family: Arvo;
-    font-size: 32px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    gap: 6rem;
+}
+
+.reviews h2 {
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-family: Athelas;
+    font-size: 75px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 65px;
 }
