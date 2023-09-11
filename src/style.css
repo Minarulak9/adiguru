@@ -230,6 +230,7 @@ nav a:hover span {
     width:25%;
     aspect-ratio: 3/1;
     background:url('./../img/dots.png') round left top/contain;
+    z-index: -1;
 }
 .service {
     width: 100%;
@@ -622,6 +623,7 @@ footer {
     height: 8px;
     background-color: var(--primary_color);
     border-radius: 0 8px 8px 0;
+    z-index: -1;
 }
 #region{
     width: 100%;
@@ -748,16 +750,37 @@ footer {
 }
 
 #join {
-    height: 40vh;
     display: grid;
     place-items: center;
     margin-bottom: 3rem;
+    position: relative;
+}
+#join::after{
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 25%;
+    height: 8px;
+    background-color: var(--primary_color);
+    border-radius: 8px 0 0 8px;
+}
+#join::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:35%;
+    aspect-ratio: 3/1;
+    background:url('./../img/dots.png') round left top/contain;
+    z-index: -1;
+
 }
 
 .numbers {
-    margin: 10rem 0;
+    margin: 6rem 0;
     width: 100%;
-    height: 282px;
+    height: 150px;
     flex-shrink: 0;
     background: linear-gradient(90deg, #FF5C00 0%, rgba(217, 217, 217, 0.00) 46.49%, #FF5C00 97.02%);
     display: flex;
@@ -779,7 +802,7 @@ footer {
 
 .num-items h4 {
     color: #000;
-    font-size: 55px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
