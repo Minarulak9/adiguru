@@ -135,7 +135,7 @@ nav a:hover span {
     outline: none;
 }
 
-.container {
+#header.container {
     height: 89vh;
     width: 100%;
     display: flex;
@@ -155,7 +155,7 @@ nav a:hover span {
     width: 687px;
     color: #000;
     font-family: Athelas;
-    font-size: 60px;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
