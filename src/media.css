@@ -26,3 +26,31 @@
         width: auto;
     }
 }
+@media only screen and (max-width:600px){
+    .search_box{
+        display: none;
+    }
+    #header .col.img{
+        display: none;
+    }
+    #region{
+        height: auto;
+        padding-bottom: 4rem;
+    }
+    #region .container{
+        gap: 2rem;
+    }
+    #purpose .left{
+        display: none;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container h4{
+        display: inline-block;
+    }
+    .col h1{
+        width: auto;
+    }
+}
