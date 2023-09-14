@@ -995,3 +995,145 @@ footer {
     line-height: normal;
     padding: 20px;
 }
+
+
+#bottom.bottom-container {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+    background-color: #E3E3E3;
+}
+
+#bottom .person-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 8rem;
+}
+
+#bottom .person-container img {
+    width: 160px;
+    /* height: 193px; */
+}
+
+#bottom .person-follow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#bottom .person-follow p {
+    color: #000;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#bottom .person-follow span {
+    color: #4D4D4D;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#bottom .person-follow button {
+    width: 320px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 58px;
+    border: 1px solid #000;
+    background: #707070;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#bottom .line {
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+
+#bottom .person-activity {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+
+}
+
+#bottom .person-activity h4 {
+    color: #000;
+    font-family: Petrona;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+
+#bottom .activities {
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 0;
+    gap: 4rem;
+}
+
+#bottom .activity .img img {
+    width: 100%;
+}
+
+#bottom .activity-details {
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom .activity-details h5 {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 1.7rem 0;
+}
+
+#bottom .activity-details .reacts {
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+}
+
+#bottom .activity-details .react {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+#bottom .activity-details .react img {
+    width: 45%;
+}
+
+#bottom .activity-details .react span {
+    color: #626262;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#bottom .btn_all button {
+    width: 380px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 51px;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+    background-color: transparent;
+}
