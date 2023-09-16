@@ -325,6 +325,44 @@ nav a:hover span {
 
 }
 
+#teachers-details .text h2 {
+    color: #000;
+    text-align: center;
+    font-family: Athelas;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+
+#teachers-details .teachers .teacher .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#teachers-details .teachers .teacher .details .teacher-img img {
+    width: 90%;
+}
+
+#teachers-details .teachers .teacher .details .teacher-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teachers-details .teachers .teacher .details p {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 .teachers-details {
     display: flex;
     flex-direction: column;
@@ -333,18 +371,23 @@ nav a:hover span {
     gap: 6rem;
     align-items: center;
     width: 100%;
-    background: url("../img/Rectangle 36.png");
+    background: url("../img/teacherbg.png");
+}
 
+#teachers-details .teachers .teacher .teacher-social {
+    display: flex;
+    justify-content: center;
+    gap: 2.2rem;
 }
 
 .teachers {
     display: flex;
     flex-wrap: wrap;
-    gap: 9rem;
+    gap: 6rem;
     justify-content: center;
 }
 
-.teachers .box img {
+#teachers-details.teachers .teacher img {
     width: 300px;
     height: 300px;
     object-fit: fill;
@@ -497,30 +540,27 @@ footer {
     padding: 2rem 0;
     background: url("../img/Rectangle 39.png");
     object-fit: cover;
-
-
 }
 
-.footer-container {
+.footer-container  {
     display: flex;
-    justify-content: space-evenly;
-
-
-
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
 }
 
 .footer-container h2 {
     color: #FEFEFE;
-    font-family: Petrona;
-    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
 }
 
-.footer-container h4 {
+#footer .footer-container h4 {
     color: #E3E2E2;
-    font-family: Petrona;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
@@ -538,13 +578,10 @@ footer {
 }
 
 .adiguru img {
-    width: 70%;
-    height: 60%;
+    width: 75%;
+    height: 65%;
     flex-shrink: 0;
-    border-radius: 152px;
-    background: lightgray 0px -216.354px / 100% 220.994% no-repeat;
-    background-blend-mode: screen;
-    mix-blend-mode: luminosity;
+    
 }
 
 .help-container {
@@ -570,8 +607,8 @@ footer {
 }
 
 .icons img {
-    width: 30px;
-    height: 30px;
+    width: 29px;
+    height: 29px;
 }
 
 .icon {
@@ -1143,20 +1180,101 @@ footer {
 }
 
 /* contact start here  */
+#contact .contact-container {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+    position: relative;
+}
+
+#contact .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-image: url('../img/contact_top.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
 #contact .contact {
+    position: relative;
+    margin: 8rem 0;
+    z-index: 2;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 0 11rem 6rem;
-    height: 700px;
-    flex-shrink: 0;
+    width: 65%;
+    height: 650px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 #contact .box {
-    width: 50%;
+    width: 70%;
+    height: auto;
 
+}
+
+#contact .box1 .sent_msg {
+    padding: 4rem 2rem;
+}
+
+#contact .box1 .sent_msg input {
+    margin: 2rem 0;
+}
+
+#contact .sent_msg .contact-details {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+#contact .bottom-border-input {
+    border: none;
+    border-bottom: 3px solid #D9D9D9;
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.bottom-border-input::placeholder {
+    color: #575454;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#contact .box1 .box1-bottom {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#contact .box1 .box1-bottom button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 6.67px;
+    background: #FF7D33;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#contact .box1 .box1-bottom img {
+    width: 60%;
 }
 
 #contact .box1 h5 {
@@ -1177,83 +1295,61 @@ footer {
     font-weight: 700;
     line-height: normal;
     padding: 3rem 2rem;
+    padding-right: 0;
 }
 
 
 #contact .box2 {
     background: #FF7D33;
-    height: 100%;
+    height: auto;
 }
 
-#contact .box2 .contact-info {
+#contact .box2 .box-top {
     display: flex;
-    height: 70%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#contact .box2 .circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #FF5C00;
+#contact .box-top img {
+    width: 30%;
+    padding: 2rem;
+
+}
+
+#contact .box2 .info-container {
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact .box2 .email {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
+    justify-items: center;
+
 }
 
-#contact .box2 .email span {
-    color: #F8F8F8;
-    font-size: 40px;
-}
-
-#contact .box2 .email p {
-    color: #FFF;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-#contact .contact_info {
-    height: 100%;
+#contact .box2 .email .circle {
+    margin: auto;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    background-color: #FF5C00;
 }
 
-#contact .sent_msg {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+#contact .box2 .email .circle span {
+    font-size: 60px;
+    color: #fff;
 }
 
-#contact .sent_msg .contact-details {
-    display: flex;
-    flex-direction: row;
-    gap: 2.5rem;
-}
-
-.bottom-border-input {
-    border: none;
-    border-bottom: 3px solid #D9D9D9;
-    ;
-    width: 100%;
-    padding: 4px;
-    margin-bottom: 20px;
-    outline: none;
-}
-
-.bottom-border-input::placeholder {
-    color: #575454;
+#contact .box2 .email-container p {
+    padding: 1rem 0;
+    color: #FFF;
     font-family: Poppins;
-    font-size: 15px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
