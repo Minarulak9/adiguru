@@ -1354,11 +1354,6 @@ footer {
     font-weight: 600;
     line-height: normal;
 }
-<<<<<<< HEAD
-/* dhyutidhara starts here  */
-
-#dht
-=======
 
 /* chandraprakas */
 .unica{
@@ -1500,7 +1495,7 @@ footer {
     position: static;
     margin-top: 2rem;
 }
-.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+.teacher .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .teacher .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
     background-color: #95A860;
 }
 .teacher .swiper-slide .img img{
@@ -1595,7 +1590,7 @@ footer {
     width: 70%;
     margin: 4rem auto;
 }
-#mission .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+#mission .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, #mission .swiper-pagination-custom, .swiper-pagination-fraction{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1676,4 +1671,85 @@ footer {
 .chand_footer{
     background:url('./../img/footer_bg_chand.svg') no-repeat center center/cover !important;
 }
->>>>>>> a06579b88ab7fc5d2d61434c446b3f7995fba7ce
+
+/* dhyutidhara */
+
+.dhyu #navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dhyu #navbar .brand{
+    color: #9A3B3B;
+}
+.dhyu .register_btn{
+    background-color: #9A3B3B;
+}
+
+.dhyu #header{
+    aspect-ratio: 16/8;
+    padding: 6rem 0;
+    background: url('./../img/dhyu_bg.png') no-repeat center center/cover;
+}
+.dhyu #header .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    align-items: center;
+    padding: 2rem;
+}
+.dhyu #header .content .dhyutidhara{
+    font-size: 7vw;
+    color: #C08261;
+    /* -webkit-text-stroke-width: 9px; */
+    font-weight: bold;
+    letter-spacing: 18px;
+}
+.dhyu #header .content .dhyutidhara .dhy{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #C08261;
+}
+.dhyu #header .content .dhyutidhara .ara{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #C08261;
+    
+}
+.dhyu #header .content .slogan{
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+    max-width: 1100px;
+}
+.dhyu #header .content .slogan .white{
+    color: white !important;
+}
+.dhyu #header .content .quote{
+    display: flex;
+    gap: 1rem;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.233);
+    color: white;
+    padding:  15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 12px;
+
+}
+#community{
+    padding: 5rem 4rem;
+    display: flex;
+    background-color: #9A3B3B;
+    height: 70vh;
+}
+#community .boxes{
+    flex: 1;
+}
+#community .details{
+    flex: 1;
+}
+
+.dhyu_footer{
+    background:url('./../img/dhyu_footer_bg.png');
+}
