@@ -395,13 +395,15 @@ nav a:hover span {
 
 #teachers-details .teachers .teacher .teacher-social a {
     text-decoration: none;
+    
+}
+#teachers-details .teachers .teacher .teacher-social .icons i{
     color: #5f5858;
     font-size: 2.5rem;
     flex-shrink: 0;
     transition: ease 0.3s;
 }
-
-#teachers-details .teachers .teacher .teacher-social a:hover {
+#teachers-details .teachers .teacher .teacher-social .icons i:hover {
     color: #000;
 }
 
