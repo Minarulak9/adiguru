@@ -1006,14 +1006,14 @@ footer {
     justify-content: space-evenly;
 }
 
-.share a #icon {
+.share span{
     font-size: 50px;
-    color: #000;
-
+    width: 55px;
+    height: 48px;
 }
-
 #blog .share a {
     text-decoration: none;
+    color: #000;
 }
 
 #blog .context .img1 img {
@@ -1819,6 +1819,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
 }
 
 #blogs-top .top-container .adiguru-blogs {

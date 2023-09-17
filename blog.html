@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./src/style.css">
     <link rel="stylesheet" href="./src/media.css">
@@ -34,10 +35,10 @@
             <h2>Headline</h2>
             <div class="person">
                 <div class="person-details">
-                    <img src="./img/circle.png" alt="">
+                    <img src="./img/Adiguru.png" alt="">
                     <div class="details">
                         <div class="top">
-                            <p>Name .</p>
+                            <p>Adiguru Staff .</p>
                             <span> Follow</span>
                         </div>
                         <div class="date">
@@ -47,14 +48,22 @@
                     </div>
                 </div>
                 <div class="share">
-                    <img src="./img/like.png" class="like " alt="">
-                    <img src="./img/export.png" class="export" alt="">
+                    <a href="#">
+                        <span class="material-icons" id="icon">
+                            favorite_border
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons" id="icon">
+                            ios_share
+                        </span>
+                    </a>
                 </div>
 
             </div>
             <div class="context">
                 <div class="img1">
-                    <img src="./img/Rectangle 83.png"  alt="">
+                    <img src="./img/blog_top.png" alt="">
                 </div>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus nam sequi. Culpa
@@ -71,8 +80,8 @@
                     vel repellat, magni error.
                 </p>
                 <div class="img2">
-                    <img src="./img/Rectangle 83.png"  alt="">
-                    <img src="./img/Rectangle 83.png"  alt="">
+                    <img src="./img/blog_middle1.png" class="mid1" alt="">
+                    <img src="./img/blog_middle2.png" class="mid2" alt="">
                 </div>
 
                 <p>
@@ -113,22 +122,80 @@
                 <textarea name="" id="" cols="30" rows="10" placeholder="Leave a comment"></textarea>
             </div>
         </div>
-    </section>
-    <section id="footer">
-        <div class="footer-container">
-            <div class="person-conatiner">
-                <img src="" alt="">
-                <div class="follower">
-                    <div class="details">
-                        <h4>Name</h4>
-                        <span>37k followers</span>
-                    </div>
-                    <button>Follow</button>
-                </div>
 
+    </section>
+    <section id="bottom">
+        <div id="bottom" class="bottom-container">
+            <div class="person-container">
+                <div class="person-img">
+                    <img src="./img/Adiguru.png" alt="">
+                </div>
+                <div class="person-follow">
+                    <div>
+                        <p>Adiguru Staff</p>
+                        <span>37k Followers</span>
+                    </div>
+                    <div class="follow">
+                        <button>Follow</button>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="person-activity">
+                <h4>More From the Adiguru Staff</h4>
+                <div class="activities">
+                    <div class="activity">
+                        <div class="img">
+                            <img src="./img/bottom1.png" alt="">
+                        </div>
+                        <div class="activity-details">
+                            <h5>Title</h5>
+                            <div class="reacts">
+                                <div class="react">
+                                    <span class="material-icons" id="icon">
+                                        favorite_border
+                                    </span>
+                                    <span>4.5k</span>
+                                </div>
+                                <div class="react">
+                                    <span class="material-symbols-outlined" id="icon">
+                                        chat_bubble
+                                    </span>
+                                    <span>2k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="activity">
+                        <div class="img">
+                            <img src="./img/bottom2.png" alt="">
+                        </div>
+                        <div class="activity-details">
+                            <h5>Title</h5>
+                            <div class="reacts">
+                                <div class="react">
+                                    <span class="material-icons" id="icon">
+                                        favorite_border
+                                    </span>
+                                    <span>4.5k</span>
+                                </div>
+                                <div class="react">
+                                    <span class="material-symbols-outlined" id="icon">
+                                        chat_bubble
+                                    </span>
+                                    <span>2k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn_all">
+                <button>See all from the 'Name'</button>
             </div>
         </div>
     </section>
+
 </body>
 
 </html>
