@@ -46,7 +46,10 @@ body {
     display: flex;
     justify-content: flex-end;
 }
-
+#navbar .btns a{
+    text-decoration: none;
+    background-color: #FE5115;
+}
 #navbar .logo .img img {
     height: 50px;
 }
