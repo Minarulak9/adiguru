@@ -185,7 +185,7 @@ nav a:hover span {
     margin-top: 70px;
 }
 
-.btn {
+#header .btn {
     width: 220px;
     height: 60px;
     flex-shrink: 0;
@@ -195,18 +195,31 @@ nav a:hover span {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transition: ease 0.3s;
 }
 
-.No1 {
+#header .btn:hover {
+    cursor: pointer;
+}
+
+#header .No1 {
     border: none;
-    background: #FE5115;
+    background: #ff5117;
     color: #FFF;
+    transition: ease 0.3s;
 }
 
-.No2 {
+#header .No1:hover {
     border: 1.816px solid #FE5115;
     background: #FFF;
     color: #FE5115;
+}
+
+#header .No2 {
+    border: 1.816px solid #FE5115;
+    background: #FFF;
+    color: #FE5115;
+    transition: ease 0.3s;
 }
 
 .image1 {
@@ -382,6 +395,20 @@ nav a:hover span {
     gap: 2.2rem;
 }
 
+#teachers-details .teachers .teacher .teacher-social a {
+    text-decoration: none;
+    
+}
+#teachers-details .teachers .teacher .teacher-social .icons i{
+    color: #5f5858;
+    font-size: 2.5rem;
+    flex-shrink: 0;
+    transition: ease 0.3s;
+}
+#teachers-details .teachers .teacher .teacher-social .icons i:hover {
+    color: #000;
+}
+
 .teachers {
     display: flex;
     flex-wrap: wrap;
@@ -397,7 +424,7 @@ nav a:hover span {
     border: 4px solid #000;
 }
 
-.custom-btn button {
+#teachers-details .custom-btn button {
     width: 230px;
     height: 65px;
     flex-shrink: 0;
@@ -410,6 +437,12 @@ nav a:hover span {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    transition: ease 0.4s;
+}
+
+#teachers-details .custom-btn button:hover {
+    background-color: #FF7D33;
+    cursor: pointer;
 }
 
 .reviews {
@@ -548,7 +581,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .footer-container h2 {
@@ -560,8 +593,9 @@ footer {
     line-height: normal;
 }
 
-#footer .footer-container h4 {
+.footer-container a {
     color: #E3E2E2;
+    text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-style: normal;
@@ -572,7 +606,9 @@ footer {
 
 
 .item {
-    padding: 3rem 0;
+    padding: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .adiguru {
@@ -588,12 +624,17 @@ footer {
 
 .help-container {
     display: flex;
+    flex-direction: row;
     width: 500px;
-    gap: 6rem;
+    gap: 4rem;
+}
+.help-container .txt {
+    display: flex;
+    flex-direction: column;
 }
 
 .icons {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     display: flex;
     align-items: center;
 }
@@ -601,22 +642,27 @@ footer {
 .icons span {
     padding: 0 1rem;
     color: #E4DDD9;
-    font-family: Petrona;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 
-.icons img {
-    width: 29px;
-    height: 29px;
+.icons i {
+    font-size: 35px;
+    color: #fdf1f1be;
+    fill: #fff;
+    transition: 0.3s ease;
 }
 
 .icon {
     display: flex;
     flex-direction: row;
     gap: 2rem;
+}
+
+.icon i:hover {
+    color: #fff;
 }
 
 .bottom {
@@ -962,10 +1008,14 @@ footer {
     justify-content: space-evenly;
 }
 
-.share #icon {
+.share span{
     font-size: 50px;
     width: 55px;
     height: 48px;
+}
+#blog .share a {
+    text-decoration: none;
+    color: #000;
 }
 
 #blog .context .img1 img {
@@ -1156,7 +1206,8 @@ footer {
 
 #bottom .activity-details .react #icon {
     font-size: 50px;
-    font-weight: 300;
+    font-weight: 100;
+    color: #000;
 }
 
 #bottom .activity-details .react span {
@@ -1525,7 +1576,9 @@ footer {
     position: static;
     margin-top: 2rem;
 }
-.teacher .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .teacher .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+
+.teacher .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.teacher .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     background-color: #95A860;
 }
 
@@ -1547,18 +1600,17 @@ footer {
     color: #95A860;
 }
 
-.teacher .swiper-slide .i {
-    background-color: #95A860;
-    color: black;
-    border-radius: 50%;
+.teacher .swiper-slide i {
+    color: #95A860;
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    font-size: 24px;
     font-weight: bold;
     display: grid;
     place-items: center;
 }
-
+.teacher .swiper-slide a{
+    text-decoration: none;
+}
 #knowledge {
     width: 100%;
     aspect-ratio: 15/6;
@@ -1636,7 +1688,11 @@ footer {
     width: 70%;
     margin: 4rem auto;
 }
-#mission .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, #mission .swiper-pagination-custom, .swiper-pagination-fraction{
+
+#mission .swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+#mission .swiper-pagination-custom,
+.swiper-pagination-fraction {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1765,6 +1821,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
 }
 
 #blogs-top .top-container .adiguru-blogs {
@@ -1794,8 +1851,9 @@ footer {
     gap: 3rem;
 }
 
-#blogs-top .top-container .adiguru-blogs .bottom .list li {
+#blogs-top .top-container .adiguru-blogs .bottom .list a {
     color: #E7C4C4;
+    text-decoration: none;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -1808,9 +1866,10 @@ footer {
     gap: 2rem;
 }
 
-#blogs-top .top-container .adiguru-blogs .bottom .social-icons img {
-    width: 35px;
-    height: 35px;
+#blogs-top .top-container .adiguru-blogs .bottom .social-icons a {
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
 }
 
 #blogs-container .blogs-container {
@@ -1900,12 +1959,17 @@ footer {
     height: 45px;
     border: none;
     flex-shrink: 0;
-    background: #FE5115;
+    background: #e27651;
     color: #FFF;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transition: ease 0.3s;
+}
+
+#blogs-container .cont .blogs .blog button:hover {
+    background: #ff6208;
 }
 
 #explore .explore-container {
@@ -1938,6 +2002,10 @@ footer {
     flex-direction: column;
 }
 
+#explore .explore-container .more-blogs-container a {
+    text-decoration: none;
+}
+
 #explore .explore-container .more-blogs-container .more-blogs {
     display: flex;
     flex-direction: row;
@@ -1947,6 +2015,14 @@ footer {
 #explore .explore-container .more-blogs-container .more-blogs img {
     width: 39%;
     height: 90%;
+}
+
+#explore .explore-container .more-blogs-container .more-blogs span {
+    color: #444;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 #explore .more-blogs-container .more-blogs .text-container {
@@ -2024,24 +2100,27 @@ footer {
 
 /* dhyutidhara */
 
-.dhyu #navbar{
+.dhyu #navbar {
     position: absolute;
     top: 0;
     left: 0;
 }
-.dhyu #navbar .brand{
+
+.dhyu #navbar .brand {
     color: #9A3B3B;
 }
-.dhyu .register_btn{
+
+.dhyu .register_btn {
     background-color: #9A3B3B;
 }
 
-.dhyu #header{
+.dhyu #header {
     aspect-ratio: 16/8;
     padding: 6rem 0;
     background: url('./../img/dhyu_bg.png') no-repeat center center/cover;
 }
-.dhyu #header .content{
+
+.dhyu #header .content {
     height: 100%;
     width: 100%;
     display: flex;
@@ -2050,87 +2129,59 @@ footer {
     align-items: center;
     padding: 2rem;
 }
-.dhyu #header .content .dhyutidhara{
+
+.dhyu #header .content .dhyutidhara {
     font-size: 7vw;
     color: #C08261;
     /* -webkit-text-stroke-width: 9px; */
     font-weight: bold;
     letter-spacing: 18px;
 }
-.dhyu #header .content .dhyutidhara .dhy{
+
+.dhyu #header .content .dhyutidhara .dhy {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #C08261;
 }
-.dhyu #header .content .dhyutidhara .ara{
+
+.dhyu #header .content .dhyutidhara .ara {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #C08261;
-    
+
 }
-.dhyu #header .content .slogan{
+
+.dhyu #header .content .slogan {
     font-size: 4rem;
     font-weight: 500;
     text-align: center;
     max-width: 1100px;
 }
-.dhyu #header .content .slogan .white{
+
+.dhyu #header .content .slogan .white {
     color: white !important;
 }
-.dhyu #header .content .quote{
+
+.dhyu #header .content .quote {
     display: flex;
     gap: 1rem;
     backdrop-filter: blur(8px);
     background-color: rgba(255, 255, 255, 0.233);
     color: white;
-    padding:  15px;
+    padding: 15px;
     font-weight: 600;
     letter-spacing: 2px;
     border-radius: 12px;
 
 }
-#community{
+
+#community {
     padding: 5rem 4rem;
     display: flex;
     gap: 6vw;
     background-color: #9A3B3B;
-    height: 80vh;
-    position: relative;
-    z-index: -1;
-    overflow: hidden;
-}
-#community .round{
-    width: 250%;
-    /* height: 200px; */
-    aspect-ratio: 1/1;
-    position: absolute;
-    border-radius: 100% 100% 0 0;
-    bottom: 150px;
-    left: 50%;
-    transform: translateX(-50%) translateY(100%);
-    z-index: -1;
+    height: 70vh;
 }
 #community .boxes{
     flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 4vw;
-    height: fit-content;
-}
-#community .box .num{
-    font-size: 2rem;
-    font-weight: 500;
-}
-#community .box{
-    padding: 15px;
-    flex: 0 0 45%;
-    background-color: #FFECE1;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 5px 5px 20px -15px white;
-}
-#community .details .title{
-    font-size: 2rem;
 }
 #community .details{
     flex: 1;
@@ -2141,8 +2192,46 @@ footer {
     color: white;
 }
 
-.dhyu_footer{
-    background:url('./../img/dhyu_footer_bg.png');
+.dhyu_footer {
+    background: url('./../img/dhyu_footer_bg.png');
+}
+#quotes{
+    background-color: #C08261;
+    
+}
+#quotes .text{
+    padding: 3rem 5rem;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgb(34, 34, 34);
+    font-family: 'Marko One', serif;
+    color: white;
+}
+#peoples{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #E2C799;
+}
+.custom-shape-divider-top-1694927748 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1694927748 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-top-1694927748 .shape-fill {
+    fill:#C08261;
 }
 #quotes{
     background-color: #C08261;
