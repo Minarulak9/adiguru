@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./src/style.css">
-    <link rel="stylesheet" href="./src/media.css">
+    <!-- <link rel="stylesheet" href="./src/media.css"> -->
+    <link rel="stylesheet" href="./src/media2.css">
     <script src="./src/app.js" defer> </script>
 
     <title>Blog</title>
@@ -17,7 +18,7 @@
 <body>
     <nav id="navbar-blog">
         <div class="logo">
-            <div class="img"><img src="./img/logo.svg" alt=""></div>
+            <div class="img"><a href="index.html"><img src="./img/logo.svg" alt=""></a></div>
             <div class="search">
                 <form action="">
                     <div class="search_box">
@@ -38,13 +39,13 @@
                     <img src="./img/Adiguru.png" alt="">
                     <div class="details">
                         <div class="top">
-                            <p>Adiguru Staff .</p>
-                            <span> Follow</span>
+                            <p>Adiguru Staff <span><svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                                <circle cx="2" cy="2" r="2" transform="matrix(1 0 0 -1 0 4)" fill="black"/>
+                                </svg></span><span> Follow</span></p>
                         </div>
                         <div class="date">
                             <h5>9 Sep, 2023</h5>
                         </div>
-
                     </div>
                 </div>
                 <div class="share">
@@ -120,6 +121,7 @@
                     <input type="email" placeholder="Email">
                 </div>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Leave a comment"></textarea>
+                <a href="#" class="sub-btn"><button>Submit</button></a>
             </div>
         </div>
 
@@ -191,7 +193,7 @@
                 </div>
             </div>
             <div class="btn_all">
-                <button>See all from the 'Name'</button>
+                <a href="#"><button>See all from the 'Name'</button></a>
             </div>
         </div>
     </section>
