@@ -180,9 +180,8 @@ nav a:hover span {
     color: #000;
     font-family: 'Athelas' sans-serif;
     font-size: 60px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+   
 
 }
 
@@ -190,9 +189,8 @@ nav a:hover span {
     color: #FF5C00;
     font-family: 'Athelas' sans-serif;
     font-size: 60px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+   
 }
 
 .col p {
@@ -200,9 +198,8 @@ nav a:hover span {
     color: #767676;
     font-family: 'Athelas' sans-serif;
     font-size: 25px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+   
 
 }
 
@@ -216,13 +213,11 @@ nav a:hover span {
 #header .btn {
     width: 220px;
     height: 60px;
-    flex-shrink: 0;
     border-radius: 36.315px;
     font-family: Athelas;
     font-size: 25px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+   
     transition: ease 0.3s;
 }
 
@@ -252,7 +247,6 @@ nav a:hover span {
 
 .image1 {
     width: 100%;
-    flex-shrink: 0;
 }
 
 #service {
@@ -299,7 +293,6 @@ nav a:hover span {
     font-family: 'Inder' sans-serif;
     text-align: center;
     font-size: 2.5rem;
-    font-style: normal;
     font-weight: 600;
     line-height: 65px;
 }
@@ -317,7 +310,6 @@ nav a:hover span {
 .card {
     width: 260px;
     height: 260px;
-    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,7 +325,6 @@ nav a:hover span {
 .card img {
     width: 40px;
     height: 40px;
-    flex-shrink: 0;
 }
 
 .card h3 {
@@ -341,7 +332,6 @@ nav a:hover span {
     text-align: center;
     font-family: 'Inder' sans-serif;
     font-size: 23px;
-    font-style: normal;
     font-weight: 550;
     line-height: 69.8%;
     /* 22.336px */
@@ -353,7 +343,6 @@ nav a:hover span {
     color: #FF8744;
     text-align: center;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 94.8%;
 }
@@ -375,9 +364,8 @@ nav a:hover span {
     text-align: center;
     font-family: 'Athelas' sans-serif;
     font-size: 50px;
-    font-style: normal;
     font-weight: 650;
-    line-height: normal;
+   
 }
 
 #teachers-details .teachers .teacher .details {
@@ -401,11 +389,10 @@ nav a:hover span {
 #teachers-details .teachers .teacher .details p {
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins' sans-serif;
     font-size: 25px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+   
 }
 
 .teachers-details {
@@ -433,7 +420,6 @@ nav a:hover span {
 #teachers-details .teachers .teacher .teacher-social .icons i {
     color: #5f5858;
     font-size: 2.5rem;
-    flex-shrink: 0;
     transition: ease 0.3s;
 }
 
@@ -459,16 +445,14 @@ nav a:hover span {
 #teachers-details .custom-btn button {
     width: 230px;
     height: 65px;
-    flex-shrink: 0;
     border-radius: 39px;
     background: #FFA877;
     border: none;
     color: #000;
     text-align: center;
     font-size: 22px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+   
     transition: ease 0.4s;
 }
 
@@ -490,7 +474,6 @@ nav a:hover span {
     text-align: center;
     font-family: 'Athelas' sans-serif;
     font-size: 3rem;
-    font-style: normal;
     font-weight: 600;
     line-height: 65px;
 }
@@ -501,7 +484,6 @@ nav a:hover span {
     flex-direction: column;
     padding: 20px;
     gap: .5rem;
-    flex-shrink: 0;
     border-radius: 20px;
     border: 1px solid #FF5C00;
     background: #FFECE1;
@@ -512,9 +494,8 @@ nav a:hover span {
     /* padding: 20px 0; */
     text-align: left;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+   
 }
 
 .reviewer-container {
@@ -541,11 +522,10 @@ h4 {
 .reviewer span {
     color: #000;
     text-align: center;
-    font-family: Athelas;
+    font-family: 'Athelas' sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+   
 }
 
 .reviewer img {
@@ -557,9 +537,8 @@ h4 {
     text-align: center;
     font-family: Athelas;
     font-size: 13px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+   
 }
 
 .star {
@@ -608,9 +587,8 @@ h4 {
     text-align: center;
     font-family: 'Athelas' sans-serif;
     font-size: 50px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    
 }
 
 footer {
@@ -630,9 +608,8 @@ footer {
     color: #FEFEFE;
     font-family: 'Petrona' sans-serif;
     font-size: 40px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+   
 }
 
 .footer-container a:hover {
@@ -644,9 +621,8 @@ footer {
     text-decoration: none;
     font-family: 'Petrona' sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+   
     padding: .5rem 0;
 }
 
@@ -664,7 +640,6 @@ footer {
 .adiguru img {
     width: 75%;
     height: 65%;
-    flex-shrink: 0;
 
 }
 
@@ -690,15 +665,13 @@ footer {
     padding: 0 1rem;
     color: #E4DDD9;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+   
 }
 
 .icons i {
-    font-size: 25px;
+    font-size: 30px;
     color: #fdf1f1be;
-    fill: #fff;
     transition: 0.3s ease;
 }
 
@@ -723,18 +696,16 @@ footer {
     background-color: #FFF;
     width: 90%;
     height: 1.2px;
-    flex-shrink: 0;
     stroke-width: 1px;
 }
 
 .bottom h5 {
     padding: 1rem 0;
     color: #FFF;
-    font-family: Noto Sans KR;
+    font-family: 'Noto Sans KR' sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+   
 }
 
 .register_btn {
@@ -926,7 +897,6 @@ footer {
     margin: 6rem 0;
     width: 100%;
     height: 150px;
-    flex-shrink: 0;
     background: linear-gradient(90deg, #FF5C00 0%, rgba(217, 217, 217, 0.00) 46.49%, #FF5C00 97.02%);
     display: flex;
     align-items: center;
@@ -947,18 +917,16 @@ footer {
 
 .num-items h4 {
     color: #000;
+    font-family: 'Inconsolata' sans-serif;
     font-size: 1.7rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 600; 
 }
 
-.num-items {
+.num-items p{
     color: #878787;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-weight: 400; 
+    font-family: 'Istok Web' sans-serif;
 }
 
 /* blog start here */
@@ -973,29 +941,29 @@ footer {
 #navbar-blog .search_bar {
     height: 55px;
     width: 400px;
-    font-size: 24px;
-    padding: 0 60px;
+    font-size: 20px;
+    padding: 0 4rem;
 }
 
 #navbar-blog .search_box span {
     font-size: 40px;
+    padding: 0.5rem;
 }
 
 #blog {
-    padding: 6rem;
-
+    padding: 5rem;
 }
 
 #blog h2 {
     color: #000;
-    font-size: 80px;
-    font-style: normal;
+    font-size: 70px;
     font-weight: 650;
-    line-height: normal;
+    font-family: 'Petrona' sans-serif;
+   
 }
 
 #blog .person {
-    margin-top: 7rem;
+    margin-top: 6rem;
     display: flex;
     width: auto;
     flex-direction: row;
@@ -1017,25 +985,26 @@ footer {
 
 #blog .top p {
     color: #000;
+    font-family: 'Petrona' sans-serif;
     font-size: 26px;
     font-weight: 600;
-    line-height: normal;
+   
 }
 
 #blog .top span {
     color: #6F6E6E;
     font-size: 24px;
     font-weight: 600;
-    line-height: normal;
+    font-family: 'Petrona' sans-serif;
     padding: 4px;
 }
 
 #blog .date h5 {
     color: #000;
+    font-family: 'Petrona' sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+   
 }
 
 #blog .person-details img {
@@ -1112,14 +1081,12 @@ footer {
 #blog .comment .name input {
     width: 47%;
     height: 90px;
-    flex-shrink: 0;
     border: 4px solid #000;
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+   
     padding: 0 20px;
 }
 
@@ -1130,9 +1097,7 @@ footer {
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     padding: 20px;
 }
 
@@ -1164,34 +1129,35 @@ footer {
 
 #bottom .person-follow p {
     color: #000;
+    font-family: 'Petrona' sans-serif;
     font-size: 80px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+   
 }
 
 #bottom .person-follow span {
     color: #4D4D4D;
     font-size: 25px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+   
 }
 
 #bottom .person-follow button {
     width: 300px;
     height: 85px;
-    flex-shrink: 0;
     border-radius: 58px;
+    font-family: 'Petrona' sans-serif;
     border: none;
-    background: #FF5C00;
+    background: #f18140;
     color: #FFF;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    transition: ease 0.3s;
+   
 }
-
+#bottom .person-follow button:hover{
+    background-color: #f8610a ;
+}
 #bottom .line {
     width: 100%;
     height: 1px;
@@ -1207,11 +1173,10 @@ footer {
 
 #bottom .person-activity h4 {
     color: #000;
-    font-family: Petrona;
+    font-family: 'Petrona' sans-serif;
     font-size: 45px;
-    font-style: normal;
-    font-weight: 650;
-    line-height: normal;
+    font-weight: 500;
+   
 }
 
 #bottom .activities {
@@ -1233,9 +1198,8 @@ footer {
 #bottom .activity-details h5 {
     color: #000;
     font-size: 50px;
-    font-style: normal;
+    font-family: 'Petrona' sans-serif;
     font-weight: 600;
-    line-height: normal;
     padding: 1.7rem 0;
 }
 
@@ -1261,22 +1225,19 @@ footer {
 #bottom .activity-details .react span {
     color: #626262;
     font-size: 17px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+   
 }
 
 #bottom .btn_all button {
     width: 380px;
-    height: 80px;
-    flex-shrink: 0;
+    height: 75px;
     border-radius: 51px;
     border: 2px solid #000;
     color: #000;
     font-size: 25px;
-    font-style: normal;
     font-weight: 650;
-    line-height: normal;
+    font-family: 'Petrona' sans-serif;
     background-color: transparent;
 }
 
@@ -1344,11 +1305,10 @@ footer {
 
 .bottom-border-input::placeholder {
     color: #575454;
-    font-family: Poppins;
+    font-family: 'Poppins' sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+   
 }
 
 #contact .box1 .box1-bottom {
@@ -1366,11 +1326,10 @@ footer {
     border-radius: 6.67px;
     background: #FF7D33;
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins' sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+   
 
 }
 
@@ -1380,21 +1339,17 @@ footer {
 
 #contact .box1 h5 {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins' sans-serif;
     font-size: 23px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding: 3rem 2rem;
 }
 
 #contact .box2 h5 {
     color: #fff;
-    font-family: Poppins;
+    font-family: 'Poppins' sans-serif;
     font-size: 23px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding: 3rem 2rem;
     padding-right: 0;
 }
@@ -1413,6 +1368,7 @@ footer {
 
 #contact .box-top img {
     width: 30%;
+    height: auto;
     padding: 2rem;
 
 }
@@ -1432,8 +1388,8 @@ footer {
 
 #contact .box2 .email .circle {
     margin: auto;
-    width: 100px;
-    height: 100px;
+    width: 6rem;
+    height: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1449,11 +1405,10 @@ footer {
 #contact .box2 .email-container p {
     padding: 1rem 0;
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins' sans-serif;
     font-size: 17px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+   
 }
 
 
@@ -1862,15 +1817,12 @@ footer {
     width: 210px;
     height: 60px;
     border: none;
-    flex-shrink: 0;
     border-radius: 36.315px;
     background: #FFF;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins' sans-serif;
     font-size: 25px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     cursor: pointer;
 }
 
@@ -1887,11 +1839,10 @@ footer {
 
 #blogs-top .top-container .adiguru-blogs .top h2 {
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins' sans-serif;
     font-size: 70px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+   
 }
 
 #blogs-top .top-container .adiguru-blogs .bottom .list ul {
@@ -1905,9 +1856,8 @@ footer {
     color: #E7C4C4;
     text-decoration: none;
     font-size: 25px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+   
 }
 
 #blogs-top .top-container .adiguru-blogs .bottom .social-icons {
@@ -1990,31 +1940,26 @@ footer {
 #blogs-container .cont .blogs .blog h3 {
     color: #000;
     font-size: 50px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+   
 }
 
 #blogs-container .cont .blogs .blog p {
     color: #000;
     font-family: Petrona;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+   
 }
 
 #blogs-container .cont .blogs .blog button {
     width: 180px;
     height: 45px;
     border: none;
-    flex-shrink: 0;
     background: #e27651;
     color: #FFF;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     transition: ease 0.3s;
 }
 
@@ -2031,11 +1976,10 @@ footer {
 
 #explore .explore-container h3 {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins' sans-serif;
     font-size: 80px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+   
 }
 
 #explore .explore-container .adiguru-text {
@@ -2070,9 +2014,8 @@ footer {
 #explore .explore-container .more-blogs-container .more-blogs span {
     color: #444;
     font-size: 17px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+   
 }
 
 #explore .more-blogs-container .more-blogs .text-container {
@@ -2085,19 +2028,14 @@ footer {
 #explore .more-blogs-container .more-blogs .text-container h5 {
     color: #000;
     font-size: 50px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-
 }
 
 #explore .more-blogs-container .more-blogs .text-container p {
     color: #000;
-    font-family: Petrona;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 550;
-    line-height: normal;
+    font-family: 'Petrona' sans-serif;
+    font-size: 18px;
+    font-weight: 500;  
 }
 
 #explore .more-blogs-container .more-blogs .text-container .post-details {
@@ -2123,15 +2061,12 @@ footer {
 #explore .post-details .staff-text h6 {
     color: #000;
     font-size: 22px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 #blogs-bottom .blogs-bottom {
     width: 100%;
-    height: 110px;
-    flex-shrink: 0;
+    padding: 2rem;
     border: 1px solid #000;
     background: #FE5115;
     display: flex;
@@ -2141,11 +2076,9 @@ footer {
 
 #blogs-bottom .blogs-bottom h5 {
     color: #FFF;
-    font-family: Petrona;
+    font-family: 'Petrona' sans-serif;
     font-size: 28px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 
 /* dhyutidhara */
@@ -2592,25 +2525,19 @@ footer {
 
 #join_us1 .join-container .text-container h4 {
     color: #000;
-    font-family: Text;
     font-family: 'Markazi Text' sans-serif;
     font-size: 80px;
-    font-style: normal;
     font-weight: 900;
-    line-height: 83.52%;
-    /* 106.905px */
 }
 
 #join_us1 .join-container .text-container p {
     color: #000;
-    width: 1000px;
+    width: 80%;
     text-align: center;
     font-family: 'Mako' sans-serif;
     font-size: 23px;
-    font-style: normal;
     font-weight: 500;
     line-height: 35px;
-    /* 30.067px */
 }
 
 #join_us1 .join-container .input-container {
@@ -2623,7 +2550,6 @@ footer {
 #join_us1 .join-container .input-container input {
     width: 500px;
     height: 80px;
-    flex-shrink: 0;
     border-radius: 30px;
     border: 2px solid #000;
     background: #FAFAFA;
@@ -2631,14 +2557,12 @@ footer {
     font-size: 23px;
     padding: 1.5rem;
     font-family: 'Mako' sans-serif;
-    /* 26.726px */
 }
 
 #join_us1 .join-container .input-container button {
     width: 160px;
     height: 70px;
     border: none;
-    flex-shrink: 0;
     border-radius: 30px;
     background: #9A3B3B;
     color: #FFF;
