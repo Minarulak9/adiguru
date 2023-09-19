@@ -20,7 +20,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-
+    width: 100%;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -63,7 +64,8 @@ body {
 }
 
 #navbar .logo .img img {
-    height: 50px;
+    /* height: 50px; */
+    width: 40px;
 }
 
 #navbar .brand {
@@ -179,7 +181,7 @@ nav a:hover span {
     /* width: 687px; */
     color: #000;
     font-family: Athelas;
-    font-size: 60px;
+    font-size: 3.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -190,7 +192,7 @@ nav a:hover span {
     /* width: 508px; */
     color: #767676;
     font-family: Athelas;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -931,11 +933,10 @@ footer {
     line-height: normal;
 }
 
-.num-items {
-    color: #878787;
+.num-items p{
+    color: #202020;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    text-align: center;
     line-height: normal;
 }
 

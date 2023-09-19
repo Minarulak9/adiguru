@@ -17,7 +17,146 @@
     }
     .footer-container{
         flex-direction: column;
+        /* align-items: center; */
+    }
+    .footer-container h4{
+        display: inline-block;
+    }
+    .col h1{
+        width: auto;
+    }
+    #header.container{
+        padding: 0 1rem;
+        height: initial;
+        margin: 3rem 0;
+    }
+    #header.container .header_content{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    #navbar .brand{
+        font-size: 1rem;
+    }
+    nav a{
+        font-size: 1rem;
+    }
+    #navbar .logo .img img{
+        width: 25px;
+    }
+    .register_btn{
+        width: initial;
+        font-size: .8rem;
+        padding: 5px 8px 5px 18px;
+    }
+    #navbar .content{
+        gap: 0;
+    }
+    #header .btn{
+        width: initial;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    #navbar{
+        padding: 0 .8rem;
+        height: 10vh;
+    }
+    .btn-container{
+        margin-top: 1rem;
+    }
+    .header_content h1{
+        font-size: 2.5rem;
+    }
+    #region .container .box{
+        aspect-ratio: initial;
+    }
+    .text h2{
+        width: auto;
+        font-size: 2rem;
+    }
+    .cards{
+        margin-top: 1rem;
+    }
+    #purpose{
+        margin: 1rem 0;
+        padding: .8rem;
+    }
+    #purpose .right {
+        gap: 1rem;
+    }
+    #purpose .right .title{
+        font-size: 2rem;
+    }
+    #purpose .right .list{
+        gap: 1rem;
+    }
+    #teachers-details .text h2{
+        font-size: 2rem;
+        padding:0 1rem ;
+    }
+    .teachers-details{
+        gap: 2rem;
+    }
+    .reviews{
+        padding: 1rem;
+        height: 450px;        
+    }
+    .teachers{
+        gap: 1rem;
+        justify-content: center;
+    }
+    #teachers-details .teachers .teacher .details .teacher-img img{
+        width: 100px;
+    }
+    .teachers .teacher{
+        flex: 0 0 40%;
+        background-color: rgba(255, 255, 255, 0.822);
+        padding: .5rem;
+    }
+    #teachers-details .teachers .teacher .teacher-social .icons i{
+        font-size: 1rem;
+    }
+    #teachers-details .teachers .teacher .details p{
+        font-size: 1rem;
+    }
+    .section_heading{
+        font-size: 2rem;
+    }
+    #join{
+        margin-bottom: 0;
+    }
+    .numbers{
+        margin: 2rem 0;
+    }
+    #footer .item{
+        padding: 0;
+    }
+    #footer .adiguru img{
+        width: 100px;
+    }
+    #footer .adiguru{
+        display: flex;
+        flex-direction: column-reverse;
         align-items: center;
+    }
+   
+    .help-container .txt{
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    #footer{
+        padding: 1rem;
+    }
+    .footer-container{
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 1rem;
+    }
+    .footer-container .links{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
     }
     .footer-container h4{
         display: inline-block;
@@ -27,6 +166,10 @@
     }
 }
 @media only screen and (max-width:600px){
+    ::-webkit-scrollbar {
+    width: 0px !important;
+    height: 0px !important;
+}
     .search_box{
         display: none;
     }
@@ -43,14 +186,26 @@
     #purpose .left{
         display: none;
     }
-    .footer-container{
+    
+    #navbar .logo{
+        gap: 2px;
+    }
+    .dropdown-content{
+        left: 0;
+        transform: translateX(50%);
+    }
+    .num-container{
+        gap: 1rem;
+    }
+    .num-items h4{
+        font-size: 1rem;
+    }
+    .num-items p{
+        font-size: 13px;
+    }
+    #footer .help-container{
+        width: 100%;
         flex-direction: column;
-        align-items: center;
-    }
-    .footer-container h4{
-        display: inline-block;
-    }
-    .col h1{
-        width: auto;
+        gap: 1rem;
     }
 }
