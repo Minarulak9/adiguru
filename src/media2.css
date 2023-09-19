@@ -1,0 +1,111 @@
+@media only screen and (max-width:900px) {
+    #navbar-blog .logo {
+        padding: 2.5rem;
+        display: flex;
+        width: auto;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #navbar-blog .search_box {
+        width: 100%;
+    }
+
+    #navbar-blog .search_bar {
+        /* height: 55px;
+        width: 400px; */
+        width: 100%;
+        font-size: 20px;
+        padding: 0 4rem;
+    }
+
+    #navbar-blog .search_box span {
+        font-size: 40px;
+        padding: 0.5rem;
+    }
+
+    #blog {
+        padding: 2rem;
+    }
+
+    #blog h2 {
+        font-size: 4rem;
+    }
+
+    #blog .person {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        align-items: flex-start;
+    }
+
+    #blog .person-details {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #blog .person-details .top svg {
+        display: none;
+    }
+
+    #bottom.bottom-container {
+        padding: 4rem 3rem;
+    }
+
+    #bottom .person-follow {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+
+    #blog .share {
+        width: 100%;
+        padding: 2rem 0 0 0;
+        display: flex;
+        justify-content: flex-end;
+        gap: 2rem;
+    }
+
+    #blog .comment {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #blog .comment .name input {
+        width: 47%;
+        height: 2.5rem;
+        border: 3px solid #000;
+        font-size: 100%;
+        font-weight: 600;
+        padding: 0 20px;
+    }
+    #blog .comment button{
+        width: 8rem;
+        height: 4rem;
+        font-weight: 500;
+    }
+    #bottom .person-follow p{
+        font-size: 4rem;
+    }
+    #bottom .activities {
+        display: flex;
+        flex-direction: column;
+    }
+    #bottom .person-follow .follow{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #bottom .person-follow button{
+        width: 80%;
+    }
+
+    #bottom .btn_all button {
+        width: 90%;
+    }
+}
