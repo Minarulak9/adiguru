@@ -3,7 +3,25 @@
         display: none;
     }
     #header .col.img{
-        display: none;
+        display: none !important;
+    }
+    #header.container.chandraprakas{
+        margin: 0;
+        padding: 3rem 1rem;
+        background: url('./../img/chandraprakash.png') no-repeat center center/cover;
+        position: relative;
+        z-index: 1;
+    }
+    #header.container.chandraprakas::before{
+        content: '';
+        background-color:#edf3a86b;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        height: 100%;
+        width: 100%;
     }
     #region{
         height: auto;
@@ -164,6 +182,16 @@
     .col h1{
         width: auto;
     }
+    /* chandraprakas */
+    .explore_btn{
+        width: 100%;
+    }
+    .mission_reviews{
+        height: auto;
+    }
+    .chand .col p{
+        color: black;
+    }
 }
 @media only screen and (max-width:600px){
     ::-webkit-scrollbar {
@@ -207,5 +235,50 @@
         width: 100%;
         flex-direction: column;
         gap: 1rem;
+    }
+
+    /* chandraprakas */
+    #section2 .row{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #section2 .row .box{
+        flex: 1;
+    }
+    #vision .feature{
+        gap: 1rem;
+    }
+    #knowledge .title{
+        font-size: 3rem;
+    }
+    #vision .feature .f{
+        flex: 0 0 150px;
+    }
+    #mission .courses{
+        width: 90%;
+    }
+    #mission .mission_slider{
+        width: 95%;
+    }
+    #section2{
+        padding: 2rem 1rem;
+    }
+    nav li{
+        margin-right: 0;
+    }
+    #navbar{
+        padding: 0 .3rem;
+    }
+    .login_btn{
+        display: none;
+    }
+    .col h1{
+        font-size: 2.5rem;
+    }
+    .mission_reviews .review{
+        flex: 1 0 250px;
+    }
+    .chand #join_us{
+        padding:0 .5rem ;
     }
 }
