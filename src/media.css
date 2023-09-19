@@ -23,10 +23,7 @@
         height: 100%;
         width: 100%;
     }
-    #region{
-        height: auto;
-        padding-bottom: 4rem;
-    }
+
     #region .container{
         gap: 2rem;
     }
@@ -83,9 +80,6 @@
     }
     .header_content h1{
         font-size: 2.5rem;
-    }
-    #region .container .box{
-        aspect-ratio: initial;
     }
     .text h2{
         width: auto;
@@ -204,10 +198,6 @@
     #header .col.img{
         display: none;
     }
-    #region{
-        height: auto;
-        padding-bottom: 4rem;
-    }
     #region .container{
         gap: 2rem;
     }
@@ -280,5 +270,31 @@
     }
     .chand #join_us{
         padding:0 .5rem ;
+    }
+    #region .container .box .title{
+        font-size: 12px;
+    }
+    #region .container {
+        padding: 0 1rem;
+        gap: .5rem;
+        height: 280px;
+    }
+    .service .cards{
+        gap: .5rem;
+        text-align: left;
+        margin: 3rem 0;
+    }
+    .service .card h3{
+        line-height: 1.2;
+    }
+    .service .card p{
+        text-align: left;
+        width: initial;
+    }
+    .service .card{
+        width: initial;
+        height: initial;
+        padding: 15px;
+        flex: 0 0 45%;
     }
 }
