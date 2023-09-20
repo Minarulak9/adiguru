@@ -1,0 +1,369 @@
+@media only screen and (max-width:900px){
+    .search_box{
+        display: none;
+    }
+    #header .col.img{
+        display: none !important;
+    }
+    #header.container.chandraprakas{
+        margin: 0;
+        padding: 3rem 1rem;
+        background: url('./../img/chandraprakash.png') no-repeat center center/cover;
+        position: relative;
+        z-index: 1;
+    }
+    #header.container.chandraprakas::before{
+        content: '';
+        background-color:#edf3a86b;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    #region .container{
+        gap: 2rem;
+    }
+    #purpose .left{
+        display: none;
+    }
+    .footer-container{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .footer-container h4{
+        display: inline-block;
+    }
+    .col h1{
+        width: auto;
+    }
+    #header.container{
+        padding: 0 1rem;
+        height: initial;
+        margin: 3rem 0;
+    }
+    #header.container .header_content{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    #navbar .brand{
+        font-size: 1rem;
+    }
+    nav a{
+        font-size: 1rem;
+    }
+    #navbar .logo .img img{
+        width: 25px;
+    }
+    .register_btn{
+        width: initial;
+        font-size: .8rem;
+        padding: 5px 8px 5px 18px;
+    }
+    #navbar .content{
+        gap: 0;
+    }
+    #header .btn{
+        width: initial;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    #navbar{
+        padding: 0 .8rem;
+        height: 10vh;
+    }
+    .btn-container{
+        margin-top: 1rem;
+    }
+    .header_content h1{
+        font-size: 2.5rem;
+    }
+    .text h2{
+        width: auto;
+        font-size: 2rem;
+    }
+    .cards{
+        margin-top: 1rem;
+    }
+    #purpose{
+        margin: 1rem 0;
+        padding: .8rem;
+    }
+    #purpose .right {
+        gap: 1rem;
+    }
+    #purpose .right .title{
+        font-size: 2rem;
+    }
+    #purpose .right .list{
+        gap: 1rem;
+    }
+    #teachers-details .text h2{
+        font-size: 2rem;
+        padding:0 1rem ;
+    }
+    .teachers-details{
+        gap: 2rem;
+    }
+    .reviews{
+        padding: 1rem;
+        height: 450px;        
+    }
+    .teachers{
+        gap: 1rem;
+        justify-content: center;
+    }
+    #teachers-details .teachers .teacher .details .teacher-img img{
+        width: 100px;
+    }
+    .teachers .teacher{
+        flex: 0 0 40%;
+        background-color: rgba(255, 255, 255, 0.822);
+        padding: .5rem;
+    }
+    #teachers-details .teachers .teacher .teacher-social .icons i{
+        font-size: 1rem;
+    }
+    #teachers-details .teachers .teacher .details p{
+        font-size: 1rem;
+    }
+    .section_heading{
+        font-size: 2rem;
+    }
+    #join{
+        margin-bottom: 0;
+    }
+    .numbers{
+        margin: 2rem 0;
+    }
+    #footer .item{
+        padding: 0;
+    }
+    #footer .adiguru img{
+        width: 100px;
+    }
+    #footer .adiguru{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+   
+    .help-container .txt{
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    #footer{
+        padding: 1rem;
+    }
+    .footer-container{
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 1rem;
+    }
+    .footer-container .links{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .footer-container h4{
+        display: inline-block;
+    }
+    .col h1{
+        width: auto;
+    }
+    /* chandraprakas */
+    .explore_btn{
+        width: 100%;
+    }
+    .mission_reviews{
+        height: auto;
+    }
+    .chand .col p{
+        color: black;
+    }
+    #service .text h2{
+        padding: 3rem 0;
+    }
+    #service .card{
+        flex: 0 0 40%;
+    }
+
+}
+@media only screen and (max-width:600px){
+    ::-webkit-scrollbar {
+    width: 0px !important;
+    height: 0px !important;
+}
+    .search_box{
+        display: none;
+    }
+    #header .col.img{
+        display: none;
+    }
+    #region .container{
+        gap: 2rem;
+    }
+    #purpose .left{
+        display: none;
+    }
+    
+    #navbar .logo{
+        gap: 2px;
+    }
+    .dropdown-content{
+        left: 0;
+        transform: translateX(50%);
+    }
+    .num-container{
+        gap: 1rem;
+    }
+    .num-items h4{
+        font-size: 1rem;
+    }
+    .num-items p{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    #footer .help-container{
+        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* chandraprakas */
+    #section2 .row{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #section2 .row .box{
+        flex: 1;
+    }
+    #vision .feature{
+        gap: 1rem;
+    }
+    #knowledge .title{
+        font-size: 3rem;
+    }
+    #vision .feature .f{
+        flex: 0 0 150px;
+    }
+    #mission .courses{
+        width: 90%;
+    }
+    #mission .mission_slider{
+        width: 95%;
+    }
+    #section2{
+        padding: 2rem 1rem;
+    }
+    nav li{
+        margin-right: 0;
+    }
+    #navbar{
+        padding: 0 .3rem;
+    }
+    .login_btn{
+        display: none;
+    }
+    .col h1{
+        font-size: 2.5rem;
+    }
+    .mission_reviews .review{
+        flex: 1 0 250px;
+    }
+    .chand #join_us{
+        padding:0 .5rem ;
+    }
+    #region .container .box .title{
+        font-size: 12px;
+    }
+    #region .container {
+        padding: 0 1rem;
+        gap: .5rem;
+        height: 280px;
+    }
+    .service .cards{
+        gap: .5rem;
+        text-align: left;
+        margin: 3rem 0;
+        padding: .5rem;
+    }
+    .service .card h3{
+        line-height: 1.2;
+    }
+    .service .card p{
+        text-align: left;
+        width: initial;
+    }
+    .service .card{
+        width: initial;
+        height: initial;
+        padding: 15px;
+        flex: 0 0 47% !important;
+    }
+    #service .text h2{
+        padding: 1rem 0;
+    }
+    #region .container .box{
+        flex: 0 0 50%;
+    }
+    #region .container .box .para{
+        font-size: 3vw;
+    }
+    .col p{
+        font-size: 3vw;
+    }
+    .service .card h3{
+        font-size: 1rem;
+    }
+    .service .card p{
+        font-size: .8rem;
+    }
+    #purpose .right .para{
+        font-size: 1rem;
+    }
+    #purpose .right .title{
+        font-size: 2.5rem;
+    }
+    #purpose .right .list li{
+        font-size: 1rem;
+        flex: 0 0 100%;
+    }
+    #purpose .right .para{
+        width: 100%;
+    }
+    #reviews h2{
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    .reviews{
+        height: 360px;
+    }
+    .review p{
+        font-size: 1rem;
+    }
+    #teachers-details .text h2{
+        width: auto;
+    }
+    #join .section_heading{
+        padding: 2.9rem 0;
+        font-size:1.5rem;
+    }
+    .footer-container h2{
+        font-size: 1.5rem;
+    }
+    .footer-container a{
+        font-size: 1rem;
+    }
+    .icons span{
+        font-size: 1rem;
+    }
+    .icons i{
+        font-size: 1rem;
+    }
+}
