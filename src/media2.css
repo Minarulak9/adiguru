@@ -1,6 +1,6 @@
 @media only screen and (max-width:900px) {
     #navbar-blog .logo {
-        padding: 2.5rem;
+        padding: 1rem;
         display: flex;
         width: auto;
         flex-direction: row;
@@ -9,7 +9,7 @@
     }
 
     #navbar-blog .search_box {
-        width: 100%;
+        width: 70%;
     }
 
     #navbar-blog .search_bar {
@@ -24,18 +24,20 @@
     }
 
     #blog {
-        padding: 2rem;
+        padding: 2.5rem 1rem 1rem;
     }
 
     #blog h2 {
-        font-size: 3rem;
+        font-size: 2.9rem;
+        padding-left: 1rem;
     }
 
     #blog .person {
         display: flex;
-        flex-direction: column;
-        margin-top: 3rem;
+        flex-direction: row;
+        margin-top: 1rem;
         align-items: flex-start;
+        padding: 0 1rem;
     }
 
     #blog .person-details {
@@ -47,31 +49,64 @@
         display: none;
     }
 
+    #blog .top {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .person-details img {
+        width: 4.7rem;
+    }
+
+    #blog .top p {
+        font-size: 1.2rem;
+    }
+
     #blog .top span {
-        font-size: 1.4rem;
+        font-size: 1rem;
+    }
+
+    #blog .context .img1 {
+        padding: 2rem 0 1rem;
+    }
+
+    #blog .context .img2 {
+        padding: 1rem 0;
+        gap: 1rem;
     }
 
     #blog .context p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     #bottom.bottom-container {
-        padding: 4rem 3rem;
+        padding: 3rem 2rem;
     }
 
     #bottom .person-follow {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
 
     }
 
-    #blog .share {
-        width: 100%;
+    #bottom .person-activity {
         padding: 2rem 0 0 0;
+    }
+
+    #blog .share {
+        width: auto;
+        height: 5rem;
+        padding: 0;
         display: flex;
         justify-content: flex-end;
-        gap: 2rem;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #blog .share span {
+        font-size: 2.4rem;
     }
 
     #blog .comment {
@@ -79,31 +114,67 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
+        gap: 1.2rem;
+        margin-top: 2.5rem;
+        padding: 0 1rem;
+    }
+
+    #blog .comment .name {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
 
     #blog .comment .name input {
-        width: 47%;
+        width: 100%;
         height: 2.5rem;
-        border: 3px solid #000;
-        font-size: 100%;
-        font-weight: 600;
-        padding: 0 20px;
+        border: 2px solid #000;
+        font-size: 0.8rem;
+        padding: 1rem;
+
+    }
+
+    #blog .comment textarea {
+        height: 6rem;
+        border: 2px solid #000;
+        padding: 0.5rem;
+        font-size: 0.8rem;
     }
 
     #blog .comment button {
-        width: 8rem;
-        height: 4rem;
+        width: 7rem;
+        height: 3rem;
+        font-size: 1.4rem;
         font-weight: 500;
     }
 
+    #bottom .person-container {
+        align-items: center;
+        padding-bottom: 0.8rem;
+    }
+
+    #bottom .person-container img {
+        width: 9rem;
+    }
+
     #bottom .person-follow p {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #bottom .activities {
         display: flex;
         flex-direction: column;
+        padding: 2rem 0 0 0;
+        gap: 1rem;
+    }
+
+    #bottom .activity-details {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #bottom .person-activity h4 {
+        font-size: 1.5rem;
     }
 
     #bottom .person-follow .follow {
@@ -112,12 +183,35 @@
         justify-content: center;
     }
 
+    #bottom .activity-details .react {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        justify-content: center;
+    }
+
+    #bottom .activity-details .reacts {
+        gap: 1rem;
+    }
+
+    #bottom .activity-details .react #icon {
+        font-size: 2.5rem;
+    }
+
     #bottom .person-follow button {
         width: 80%;
+        height: 4rem;
+    }
+
+    #bottom .btn_all {
+        padding: 2rem 0 0 0;
+        display: flex;
+        justify-content: center;
     }
 
     #bottom .btn_all button {
-        width: 90%;
+        width: 50vw;
+        font-size: 4vw;
     }
 
     #blogs-top .top-container {
@@ -219,7 +313,7 @@
     }
 
     #contact .background-image {
-       
+
         width: 100%;
         height: 50%;
         background-size: cover;
