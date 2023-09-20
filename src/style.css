@@ -19,7 +19,14 @@ font-family: 'Roboto', sans-serif; */
 /* font-family: 'Petrona', serif; */
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Petrona:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&display=swap');
 /* font-family: 'Oxygen', sans-serif; */
-
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Zilla Slab', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Manuale:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus&family=Markazi+Text:wght@400;500;600;700&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+/* font-family: 'Londrina Solid', cursive;
+font-family: 'Manuale', serif;
+font-family: 'Marcellus', serif;
+font-family: 'Markazi Text', serif;
+font-family: 'Martel Sans', sans-serif; */
 @font-face {
     font-family: AthelasBold;
     src: url("./fonts/Athelas-Bold.ttf");
@@ -239,7 +246,9 @@ nav a:hover span {
     gap: 24.513px;
     margin-top: 70px;
 }
-
+.chand_exprole_btn{
+    margin-top: 5%;
+}
 #header .btn {
     width: 220px;
     height: 55px;
@@ -1531,16 +1540,19 @@ footer {
     color: #EDF3A8;
     cursor: pointer;
     padding: 10px;
-    width: 70%;
+    width: 100%;
     background-color: #192915;
     border: none;
     border-radius: 8px;
+    font-size: 2rem;
+    font-family: 'Zilla Slab', serif;
 }
 
 #header.chandraprakas {
     background-color: #EDF3A8;
+    margin: 0;
     /* gap: 2rem; */
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .chand #navbar {
@@ -1554,7 +1566,7 @@ footer {
 
 .chand #navbar a {
     color: #192915;
-
+    margin-right: 10px;
 }
 
 .chand .register_btn {
@@ -1562,21 +1574,43 @@ footer {
     color: white !important;
 }
 
+#header.chandraprakas  {
+    /* height: 100vh; */
+    width: 100%;
+    aspect-ratio: 16/9;
+    gap: 8%;
+    padding: 4rem 4rem 5rem 4rem;
+}
 #header.chandraprakas .col {
-    flex: 3;
+    flex: initial;
+}
+#header.chandraprakas .col h1{
+    width: 100%;
+    text-align: justify;
+    font-size: calc(6vw + 1.4rem);
+    margin-bottom: 3%;
+}
+#header.chandraprakas .col p{
+    font-family: 'Zilla Slab', serif;
+    width: 90%;
+    font-size: 2vw;
+    color: #192915;
 }
 
 #header.chandraprakas .col.img {
     position: relative;
-    flex: 2;
     display: flex;
     align-items: center;
-    height: 70%;
+    height: 100%;
 }
-
+.chand_header_text{
+    max-width: 800px;
+    gap: 0rem;
+}
 #header.chandraprakas .image1 {
     height: 100%;
-    width: auto !important;
+    width:initial;
+    margin-top: initial;
 }
 
 #section2 {
@@ -1590,7 +1624,7 @@ footer {
 }
 
 #section2 .row .box {
-    padding: 1rem 2rem;
+    padding:3.5rem;
     background-color: #3B6835;
     border-radius: 40px;
     display: flex;
@@ -1605,13 +1639,18 @@ footer {
     border-radius: 30px;
 }
 
+#section2 .row .box .para {
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
 #section2 .row .box .title {
-    font-size: 1.5rem;
+    font-size: 2.8rem;
     font-family: 'Unica One', cursive !important;
 }
 
 #section2 .row .box_sm {
-    flex: 2;
+    flex: 3;
 }
 
 #section2 .row .box_bg {
@@ -1620,6 +1659,10 @@ footer {
 
 #section2 .row-2 {
     margin-top: 2rem;
+    gap: 4rem !important;
+}
+#section2 .row-2 .box_sm{
+    flex: 2;
 }
 
 .chand {
@@ -1632,17 +1675,21 @@ footer {
 
 #vision .heading {
     color: #EDF3A8;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    padding-top: 4rem;
 }
 
 #vision .sub_heading {
     font-family: 'Unica One', cursive !important;
-    font-size: 3rem;
+    font-size: 5.5rem;
     color: white;
+    padding-bottom: 6rem;
 }
 
 #vision .feature {
     display: flex;
-    padding: 1.5rem;
+    padding: 2.8rem;
     justify-content: space-around;
     background-color: #95A8601A;
     margin-top: 2rem;
@@ -1651,15 +1698,21 @@ footer {
 }
 
 #vision .feature .f {
-    flex: 0 0 180px;
+    flex: 0 0 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
+#vision .feature .f .globe img {
+    width: 60% !important;
+}
+#vision .feature .f .point img {
+    width: 45% !important;
+}
 #vision .feature .f .img img {
-    width: 50%;
+    width: 40%;
 }
 
 #vision .feature .f .img {
@@ -1673,18 +1726,22 @@ footer {
 #vision .feature .f .title {
     color: white;
     font-family: 'Unica One', cursive !important;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 
 #vision .line {
     background-color: #95A8601A;
-    width: 98%;
-    height: 20px;
-    margin: 4rem auto;
+    width: 100%;
+    height: 28px;
+    margin: 5rem auto;
     border-radius: 25px;
 }
 
+#vision .teacher {
+    padding: 3rem;
+    background-color: #95A8601A;
+}
 .teacher .swiper-pagination {
     position: static;
     margin-top: 2rem;
@@ -1696,7 +1753,7 @@ footer {
 }
 
 .teacher .swiper-slide .img img {
-    width: 80%;
+    width: 100%;
 }
 
 .teacher .swiper-slide {
@@ -1704,6 +1761,11 @@ footer {
     flex-direction: column;
     background-color: transparent;
     color: #EDF3A8;
+    gap: .5rem;
+}
+
+.teacher .swiper-slide .name {
+    font-size: 1.5rem;
 }
 
 .teacher .swiper-slide .tag {
@@ -1711,6 +1773,7 @@ footer {
     gap: .5rem;
     align-items: center;
     color: #95A860;
+    font-size: 1.5rem;
 }
 
 .teacher .swiper-slide i {
@@ -1728,7 +1791,7 @@ footer {
 
 #knowledge {
     width: 100%;
-    aspect-ratio: 15/6;
+    aspect-ratio: 15/7;
     background: url(./../img/leafe_bg.png) no-repeat center center/cover;
     display: flex;
     align-items: center;
@@ -1737,9 +1800,9 @@ footer {
 
 #knowledge .title {
     color: white;
-    font-size: 4rem;
+    font-size: 6rem;
     font-family: 'Unica One', cursive !important;
-    max-width: 600px;
+    width: 70%;
     text-align: center;
 }
 
@@ -1752,45 +1815,48 @@ footer {
 }
 
 #mission {
-    background: url('./../img/circles.png') no-repeat -230% 30%/80%;
+    background: url('./../img/circles.png') no-repeat -190% 20%/80%;
 }
 
 #mission .courses {
-    max-width: 800px;
+    max-width: 1000px;
     width: 70%;
     margin: 4rem auto;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 #mission .courses .course .title {
     font-family: 'Unica One', cursive !important;
     font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 #mission .courses .course .course_number {
-    font-size: .8rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
 }
 
-#mission .courses .course .right {
-    font-size: 3rem;
+#mission .courses .course .right img{
+    width: 30px;
 }
 
 #mission .courses .course .left {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 #mission .courses .course img {
-    width: 6vw;
+    width: 8vw;
 }
 
 #mission .courses .course {
-    padding: 1rem;
+    padding: 1rem 2.2rem 1rem 1rem;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 40px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -1799,7 +1865,7 @@ footer {
 }
 
 #mission .mission_slider {
-    max-width: 800px;
+    max-width: 900px;
     width: 70%;
     margin: 4rem auto;
 }
@@ -1811,7 +1877,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 4rem;
+}
+#mission .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, #mission .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    background-color: #444;
+    width: 25px;
+    height: 25px;
 }
 
 .mission_slider .swiper-slide .title .white {
@@ -1827,12 +1898,18 @@ footer {
 }
 
 .mission_slider .swiper-slide .para {
-    max-width: 600px;
-    width: 90%;
+    /* max-width: 600px; */
+    text-align: left;
+    width: 70%;
+    font-family: 'Unica One', cursive !important;
+    font-size: 1.4rem;
 }
 
 .mission_slider .swiper-slide .title {
-    font-size: 3rem;
+    font-size: 6rem;
+    font-family: 'Unica One', cursive !important;
+    margin-bottom: 4rem;
+
 }
 
 .mission_slider .swiper-slide {
@@ -1840,6 +1917,7 @@ footer {
     color: white;
     flex-direction: column;
     gap: 2rem;
+    align-items: flex-start;
 }
 
 .mission_reviews {
@@ -1863,8 +1941,28 @@ footer {
 
 .chand .numbers {
     background: linear-gradient(to right, #95A8601A, #95A86000, #95A8601A);
+    position: relative;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
 }
-
+.chand .numbers::before {
+    content: '';
+    position: absolute;
+    height: 65%;
+    aspect-ratio: 1/1;
+    background-color:#0b0d07;
+    right: 0%;
+    border-radius: 50%;
+    transform: translateX(50%);
+    border: 20px solid #192915;
+}
+.chand .numbers .dots {
+    position: absolute;
+    bottom: 15px;
+    left: 5%;
+    height: 50px;
+}
 .chand .numbers .num-container p {
     color: #95A860;
 }
@@ -1874,31 +1972,50 @@ footer {
 }
 
 #join_us {
-    max-width: 500px;
+    max-width: 800px;
     margin: 5rem auto;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     text-align: center;
     align-items: center;
 }
 
 #join_us .para {
     color: #EDF3A8;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.5rem;
 }
 
 #join_us .heading {
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: 'Unica One', cursive !important;
     color: white;
 }
 
+#join_us .join_us_btn .text{
+    flex: 1;
+}
+#join_us .join_us_btn .img{
+    display: grid;
+    place-items: center;
+}
+#join_us .join_us_btn img{
+    width: 25px;
+}
 #join_us .join_us_btn {
     background-color: #EDF3A8;
     text-decoration: none;
     color: black;
     padding: 12px;
-    width: 120px;
+    width: 150px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 12px;
 
 }
 
@@ -2222,8 +2339,8 @@ footer {
 }
 
 .dhyu #header {
-    aspect-ratio: 16/8;
-    padding: 6rem 0;
+    /* aspect-ratio: 16/8; */
+    padding: 5rem 0 1rem 0;
     background: url('./../img/dhyu_bg.png') no-repeat center center/cover;
 }
 
@@ -2238,29 +2355,31 @@ footer {
 }
 
 .dhyu #header .content .dhyutidhara {
-    font-size: 7vw;
+    font-size: 12vw;
     color: #C08261;
     /* -webkit-text-stroke-width: 9px; */
     font-weight: bold;
-    letter-spacing: 18px;
+    margin-top: -5%;
+    font-family: 'Martel Sans', sans-serif;
 }
 
 .dhyu #header .content .dhyutidhara .dhy {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #C08261;
+    -webkit-text-stroke: 3px #C08261;
 }
 
 .dhyu #header .content .dhyutidhara .ara {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #C08261;
+    -webkit-text-stroke: 3px #C08261;
 
-}
+}   
 
 .dhyu #header .content .slogan {
-    font-size: 4rem;
+    font-size: 7vw;
     font-weight: 500;
     text-align: center;
-    max-width: 1100px;
+    font-family: 'Markazi Text', serif;
+    margin-top: -6%;
 }
 
 .dhyu #header .content .slogan .white {
@@ -2273,11 +2392,12 @@ footer {
     backdrop-filter: blur(8px);
     background-color: rgba(255, 255, 255, 0.233);
     color: white;
-    padding: 15px;
-    font-weight: 600;
+    padding: 15px 5%;
+    font-weight: 500;
     letter-spacing: 2px;
     border-radius: 12px;
-
+    font-size: 2.2vw;
+    font-family: 'Markazi Text', serif;
 }
 
 #community {
