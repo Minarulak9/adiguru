@@ -12,14 +12,21 @@
 /* font-family: 'Inconsolata', monospace; */
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
 /* font-family: 'Inika', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,400&display=swap');
+/* font-family: 'Play', sans-serif;
+font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&display=swap');
+/* font-family: 'Petrona', serif; */
+
 
 @font-face {
     font-family: AthelasBold;
-    src:url("./fonts/Athelas-Bold.ttf");
+    src: url("./fonts/Athelas-Bold.ttf");
 }
+
 @font-face {
     font-family: Athelas;
-    src:url("./fonts/Athelas-Regular.ttf");
+    src: url("./fonts/Athelas-Regular.ttf");
 }
 
 * {
@@ -160,9 +167,10 @@ nav a:hover span {
     width: 100%;
 }
 
-.search{
+.search {
     flex: 1;
 }
+
 .search_box {
     position: relative;
 }
@@ -251,11 +259,13 @@ nav a:hover span {
     color: #FFF;
     transition: ease 0.3s;
 }
+
 #header .No1:hover {
     border: 1.816px solid #FE5115;
     background: #FFF;
     color: #FE5115;
 }
+
 #header .No2 {
     border: 1.816px solid #FE5115;
     background: #FFF;
@@ -267,9 +277,11 @@ nav a:hover span {
     width: 100%;
     margin-top: -5%;
 }
-.col.img.header_content{
+
+.col.img.header_content {
     align-items: flex-end;
 }
+
 #service {
     margin-top: 5rem;
     position: relative;
@@ -315,7 +327,7 @@ nav a:hover span {
     text-align: center;
     font-size: 6vw;
     font-weight: 600;
-    line-height:.8;
+    line-height: .8;
 }
 
 .cards {
@@ -381,12 +393,14 @@ nav a:hover span {
     border-radius: 50%;
 
 }
-.service_line{
+
+.service_line {
     width: 95%;
-    height:2px;
+    height: 2px;
     margin: auto;
     background-color: #FFECE1;
 }
+
 #teachers-details .text h2 {
     color: #000;
     text-align: center;
@@ -844,6 +858,7 @@ footer {
     color: #585858;
     width: 80%;
 }
+
 #purpose .right .title {
     font-size: 5vw;
     width: 65%;
@@ -851,16 +866,18 @@ footer {
     letter-spacing: 2px;
 }
 
-#purpose .right .list li .content{
+#purpose .right .list li .content {
     flex: 1;
     font-family: 'Inder', sans-serif;
 }
-#purpose .right .list li .dot{
-    width:1.3vw;
+
+#purpose .right .list li .dot {
+    width: 1.3vw;
     aspect-ratio: 1/1;
     background-color: #ff5117;
     border-radius: 50%;
 }
+
 #purpose .right .list li {
     font-size: 1.3vw;
     font-weight: 600;
@@ -1059,7 +1076,8 @@ footer {
     align-items: end;
     justify-content: space-evenly;
 }
-#blog-container{
+
+#blog-container {
     width: 100vw;
 
 }
@@ -1140,9 +1158,11 @@ footer {
     font-weight: 600;
     padding: 20px;
 }
-#blog a{
+
+#blog a {
     text-decoration: none;
 }
+
 #blog .comment .sub-btn {
     display: flex;
     justify-content: end;
@@ -1874,18 +1894,18 @@ footer {
 #blogs-top .top-container .upper {
     display: flex;
     justify-content: end;
-    height: 200px;
+    height: 190px;
 }
 
 #blogs-top .top-container .upper button {
-    width: 210px;
+    width: 205px;
     height: 60px;
     border: none;
     border-radius: 36.315px;
     background: #FFF;
     color: #000;
-    font-family: 'Poppins' sans-serif;
-    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
     font-weight: 700;
     cursor: pointer;
 }
@@ -1899,12 +1919,13 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 1rem ;
 }
 
 #blogs-top .top-container .adiguru-blogs .top h2 {
     color: #FFF;
-    font-family: 'Poppins' sans-serif;
-    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 75px;
     font-weight: 700;
 
 }
@@ -1921,6 +1942,7 @@ footer {
     text-decoration: none;
     font-size: 25px;
     font-weight: 600;
+    font-family: 'Play', sans-serif;
 
 }
 
@@ -1931,7 +1953,7 @@ footer {
 }
 
 #blogs-top .top-container .adiguru-blogs .bottom .social-icons a {
-    font-size: 35px;
+    font-size: 2.2rem;
     color: #fff;
     text-decoration: none;
 }
@@ -1948,6 +1970,7 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 4rem;
+    padding-top: 2rem;
 
 
 }
@@ -2005,14 +2028,20 @@ footer {
     color: #000;
     font-size: 50px;
     font-weight: 700;
+    font-family: 'Petrona', sans-serif;
 
+
+}
+
+#blogs-container .container2 .blogs .blog h3 {
+    font-family: 'Poppins', sans-serif;
 }
 
 #blogs-container .cont .blogs .blog p {
     color: #000;
-    font-family: Petrona;
+    font-family: 'Petrona',sans-serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 
 }
 
@@ -2022,6 +2051,7 @@ footer {
     border: none;
     background: #e27651;
     color: #FFF;
+    font-family: 'Petrona',sans-serif;
     font-size: 18px;
     font-weight: 700;
     transition: ease 0.3s;
@@ -2034,13 +2064,13 @@ footer {
 #explore .explore-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     padding: 2rem 4rem;
 }
 
 #explore .explore-container h3 {
     color: #000;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins' , sans-serif;
     font-size: 80px;
     font-weight: 700;
 
@@ -2058,6 +2088,8 @@ footer {
 #explore .explore-container .more-blogs-container {
     display: flex;
     flex-direction: column;
+    padding: 1rem 0;
+    padding-bottom: 40vh;
 }
 
 #explore .explore-container .more-blogs-container a {
@@ -2079,6 +2111,7 @@ footer {
     color: #444;
     font-size: 17px;
     font-weight: 400;
+    font-family: 'Petrona',sans-serif;
 
 }
 
@@ -2097,9 +2130,9 @@ footer {
 
 #explore .more-blogs-container .more-blogs .text-container p {
     color: #000;
-    font-family: 'Petrona' sans-serif;
-    font-size: 18px;
-    font-weight: 500;
+    font-family: 'Petrona', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 600;
 }
 
 #explore .more-blogs-container .more-blogs .text-container .post-details {
@@ -2111,7 +2144,7 @@ footer {
 }
 
 #explore .more-blogs .text-container .post-details .staff-dp img {
-    width: 100%;
+    width: 90%;
 }
 
 #explore .post-details .staff-text {
@@ -2124,8 +2157,9 @@ footer {
 
 #explore .post-details .staff-text h6 {
     color: #000;
-    font-size: 22px;
+    font-size: 1.8vw;
     font-weight: 600;
+    font-family: 'Petrona',sans-serif;
 }
 
 #blogs-bottom .blogs-bottom {
@@ -2140,9 +2174,9 @@ footer {
 
 #blogs-bottom .blogs-bottom h5 {
     color: #FFF;
-    font-family: 'Petrona' sans-serif;
-    font-size: 28px;
-    font-weight: 800;
+    font-family: 'Petrona', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 750;
 }
 
 /* dhyutidhara */
