@@ -10,6 +10,8 @@
 /* font-family: 'Inder', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700;900&display=swap');
 /* font-family: 'Inconsolata', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+/* font-family: 'Inika', serif; */
 
 @font-face {
     font-family: AthelasBold;
@@ -50,7 +52,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 13vh;
+    height: 18vh;
     width: 100%;
     padding: 0 2rem;
     /* background-color: lightblue;q */
@@ -64,9 +66,8 @@ body {
 }
 
 #navbar .content {
-    /* flex: 4; */
+    flex: 3;
     display: flex;
-    justify-content: center;
     gap: 15px;
 }
 
@@ -77,12 +78,14 @@ body {
 }
 
 #navbar .logo .img img {
-    width: 40px;
+    width: 60px;
 }
 
 #navbar .brand {
-    font-size: 2.6rem;
+    font-size: 3.3rem;
+    margin-left: 5px;
     color: var(--primary_color);
+    font-family: 'Athelas', sans-serif;
 }
 
 
@@ -95,7 +98,7 @@ nav ul {
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 nav a {
@@ -103,8 +106,8 @@ nav a {
     color: inherit;
     display: flex;
     align-items: center;
-    font-size: 1.1rem;
-    font-family: 'Athelas', sans-serif;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav a span {
@@ -157,6 +160,9 @@ nav a:hover span {
     width: 100%;
 }
 
+.search{
+    flex: 1;
+}
 .search_box {
     position: relative;
 }
@@ -173,14 +179,16 @@ nav a:hover span {
     padding: 10px 12px 10px 30px;
     border: 1px solid rgb(97, 97, 97);
     outline: none;
+    width: 60%;
 }
 
 .container {
-    height: 89vh;
+    /* height: 89vh; */
     width: 100%;
     display: flex;
     align-items: center;
     padding: 0 5rem;
+    margin: 5rem 0 6rem 0;
 
 }
 
@@ -188,16 +196,15 @@ nav a:hover span {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    flex: 1;
 
 }
 
 .col h1 {
     color: #000;
-    font-family: 'Athelas' sans-serif;
-    font-size: 3.2rem;
-    font-weight: 400;
-
-
+    font-family: 'Athelas', sans-serif;
+    font-size: 3.8vw;
+    font-weight: 500;
 }
 
 .col span {
@@ -210,14 +217,11 @@ nav a:hover span {
 .col p {
     /* width: 508px; */
     color: #767676;
-    font-family: 'Athelas' sans-serif;
-
     font-size: 25px;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
-
-
+    width: 69%;
 }
 
 .btn-container {
@@ -261,8 +265,11 @@ nav a:hover span {
 
 .image1 {
     width: 100%;
+    margin-top: -5%;
 }
-
+.col.img.header_content{
+    align-items: flex-end;
+}
 #service {
     margin-top: 5rem;
     position: relative;
@@ -273,7 +280,7 @@ nav a:hover span {
     position: absolute;
     top: 15px;
     right: 0;
-    width: 25%;
+    width: 20%;
     height: 18px;
     background-color: var(--primary_color);
     border-radius: 8px 0 0 8px;
@@ -284,9 +291,9 @@ nav a:hover span {
     position: absolute;
     top: 0;
     left: 0;
-    height: 155px;
-    aspect-ratio: 2/1;
-    background: url('./../img/dots.png') repeat left top/contain;
+    width: 26%;
+    aspect-ratio: 1/1;
+    background: url('./../img/dots.png')no-repeat left top/contain;
     z-index: -1;
 }
 
@@ -301,12 +308,12 @@ nav a:hover span {
 }
 
 #service .text h2 {
-    max-width: 350px;
+    max-width: 40vw;
     color: #000;
-    padding: 2rem 0;
+    padding: 6rem 0;
     font-family: Athelas;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 6vw;
     font-weight: 600;
     line-height:.8;
 }
@@ -316,22 +323,25 @@ nav a:hover span {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 3rem;
+    margin: 6rem 0 5rem 0;
     gap: 3rem;
+    padding: 0 4rem;
 
 }
 
 .card {
-    width: 260px;
-    height: 260px;
+    flex: 0 0 20%;
+    aspect-ratio: 1/1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    justify-content: center;
+    gap: 12%;
     border-radius: 30px;
     border: 1px solid #FF5C00;
     background: #FFECE1;
     box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0.25);
+    padding: .5rem;
 
 
 }
@@ -345,18 +355,17 @@ nav a:hover span {
     color: #000;
     text-align: center;
     font-family: 'Inder', sans-serif;
-    font-size: 23px;
+    font-size: 1.5vw;
     font-weight: 550;
     line-height: 69.8%;
     /* 22.336px */
 }
 
 .card p {
-    width: 200px;
     font-family: 'Inder', sans-serif;
     color: #FF8744;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.5vw;
     font-weight: 400;
     line-height: 94.8%;
 }
@@ -372,14 +381,18 @@ nav a:hover span {
     border-radius: 50%;
 
 }
-
+.service_line{
+    width: 95%;
+    height:2px;
+    margin: auto;
+    background-color: #FFECE1;
+}
 #teachers-details .text h2 {
     color: #000;
     text-align: center;
-    font-family: 'Athelas' sans-serif;
-    font-size: 3rem;
+    font-size: 4vw;
     font-weight: 650;
-    max-width: 400px;
+    width: 40%;
 }
 
 #teachers-details .teachers .teacher .details {
@@ -482,14 +495,14 @@ nav a:hover span {
     height: 550px;
 }
 
-.reviews h2 {
+#reviews h2 {
     width: 100%;
     color: #000;
     text-align: center;
-    font-family: 'Athelas' sans-serif;
-    font-size: 3rem;
+    font-size: 4.5vw;
     font-weight: 600;
     line-height: 65px;
+    padding: 5rem 0 1rem 0;
 }
 
 .review {
@@ -505,10 +518,11 @@ nav a:hover span {
 
 .review p {
     color: #000;
-    /* padding: 20px 0; */
+    padding: 35px 0;
     text-align: left;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -552,6 +566,7 @@ h4 {
     font-family: Athelas;
     font-size: 13px;
     font-weight: 700;
+    margin-top: 5px;
 
 }
 
@@ -600,9 +615,9 @@ h4 {
     color: #000;
     text-align: center;
     font-family: 'Athelas', sans-serif;
-    font-size: 50px;
+    font-size: 3.5vw;
     font-weight: 600;
-    padding: 4rem 0;
+    padding: 5.5rem 0;
 
 }
 
@@ -616,14 +631,14 @@ footer {
 .footer-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 3rem;
 }
 
 .footer-container h2 {
     color: #FEFEFE;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: 600;
 
 }
@@ -636,7 +651,7 @@ footer {
     color: #E3E2E2;
     text-decoration: none;
     font-family: 'Petrona' sans-serif;
-    font-size: 20px;
+    font-size: 1.7vw;
     font-weight: 500;
 
     padding: .5rem 0;
@@ -654,15 +669,13 @@ footer {
 }
 
 .adiguru img {
-    width: 75%;
-    height: 65%;
+    width: 15vw;
 
 }
 
 .help-container {
     display: flex;
     flex-direction: row;
-    width: 500px;
     gap: 4rem;
 }
 
@@ -680,13 +693,13 @@ footer {
 .icons span {
     padding: 0 1rem;
     color: #E4DDD9;
-    font-size: 20px;
+    font-size: 1.8vw;
     font-weight: 500;
 
 }
 
 .icons i {
-    font-size: 30px;
+    font-size: 2vw;
     color: #fdf1f1be;
     transition: 0.3s ease;
 }
@@ -767,9 +780,8 @@ footer {
 #region .container {
     display: flex;
     justify-content: center;
-    gap: 8%;
+    gap: 13%;
     margin: 5rem 0 5rem 0;
-    height: 350px;
 }
 
 #region .container .box:hover img {
@@ -777,15 +789,15 @@ footer {
 }
 
 #region .container .box {
-    flex: 0 0 50%;
-    max-width: 350px;
-    height: 100%;
+    flex: 0 0 35%;
+    max-width: 700px;
     border-radius: 12px;
     background-color: white;
     padding: 20px;
     text-decoration: none;
     color: black;
     display: flex;
+    align-self: stretch;
     flex-direction: column;
     align-items: center;
     gap: .4rem;
@@ -797,14 +809,16 @@ footer {
     /* text-align: center; */
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
-    font-size: .8rem;
+    font-size: .9rem;
+    font-weight: 500;
 }
 
 #region .container .box .title {
     margin: .5rem 0;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: uppercase;
 
 }
 
@@ -823,26 +837,39 @@ footer {
 }
 
 #purpose .right .para {
-    max-width: 450px;
-    font-size: 1.2rem;
+    /* max-width: 450px; */
+    font-size: 1.5vw;
+    font-family: 'Inika', serif;
+    line-height: 1.2;
+    color: #585858;
+    width: 80%;
 }
 #purpose .right .title {
-    font-size: 3.5rem;
+    font-size: 5vw;
+    width: 65%;
     font-weight: 600;
-    max-width: 300px;
-    font-weight: Athelas;
     letter-spacing: 2px;
 }
 
+#purpose .right .list li .content{
+    flex: 1;
+    font-family: 'Inder', sans-serif;
+}
+#purpose .right .list li .dot{
+    width:1.3vw;
+    aspect-ratio: 1/1;
+    background-color: #ff5117;
+    border-radius: 50%;
+}
 #purpose .right .list li {
-    font-size: 1.3rem;
+    font-size: 1.3vw;
     font-weight: 600;
     flex: 0 0 45%;
     color: #313131;
     width: 100%;
-}
-#purpose .right .list li::marker {
-    color: #FE5115;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 #purpose .right .list {
@@ -851,7 +878,8 @@ footer {
     justify-content: space-between;
     gap: 3rem;
     padding: 0 2rem;
-    margin-left: -15px;
+    margin-left: -30px;
+    list-style: none;
 }
 
 #purpose .right {
@@ -859,7 +887,7 @@ footer {
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 #purpose .left {
