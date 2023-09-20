@@ -823,7 +823,7 @@ footer {
     /* text-align: center; */
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
-    font-size: .9rem;
+    font-size: 1vw;
     font-weight: 500;
 }
 
@@ -881,7 +881,7 @@ footer {
 #purpose .right .list li {
     font-size: 1.3vw;
     font-weight: 600;
-    flex: 0 0 45%;
+    flex: 0 0 42%;
     color: #313131;
     width: 100%;
     display: flex;

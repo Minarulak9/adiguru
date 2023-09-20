@@ -186,6 +186,13 @@
     .chand .col p{
         color: black;
     }
+    #service .text h2{
+        padding: 3rem 0;
+    }
+    #service .card{
+        flex: 0 0 40%;
+    }
+
 }
 @media only screen and (max-width:600px){
     ::-webkit-scrollbar {
@@ -220,6 +227,7 @@
     }
     .num-items p{
         font-size: 13px;
+        margin-top: 5px;
     }
     #footer .help-container{
         width: 100%;
@@ -283,6 +291,7 @@
         gap: .5rem;
         text-align: left;
         margin: 3rem 0;
+        padding: .5rem;
     }
     .service .card h3{
         line-height: 1.2;
@@ -295,6 +304,66 @@
         width: initial;
         height: initial;
         padding: 15px;
-        flex: 0 0 45%;
+        flex: 0 0 47% !important;
+    }
+    #service .text h2{
+        padding: 1rem 0;
+    }
+    #region .container .box{
+        flex: 0 0 50%;
+    }
+    #region .container .box .para{
+        font-size: 3vw;
+    }
+    .col p{
+        font-size: 3vw;
+    }
+    .service .card h3{
+        font-size: 1rem;
+    }
+    .service .card p{
+        font-size: .8rem;
+    }
+    #purpose .right .para{
+        font-size: 1rem;
+    }
+    #purpose .right .title{
+        font-size: 2.5rem;
+    }
+    #purpose .right .list li{
+        font-size: 1rem;
+        flex: 0 0 100%;
+    }
+    #purpose .right .para{
+        width: 100%;
+    }
+    #reviews h2{
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    .reviews{
+        height: 360px;
+    }
+    .review p{
+        font-size: 1rem;
+    }
+    #teachers-details .text h2{
+        width: auto;
+    }
+    #join .section_heading{
+        padding: 2.9rem 0;
+        font-size:1.5rem;
+    }
+    .footer-container h2{
+        font-size: 1.5rem;
+    }
+    .footer-container a{
+        font-size: 1rem;
+    }
+    .icons span{
+        font-size: 1rem;
+    }
+    .icons i{
+        font-size: 1rem;
     }
 }
