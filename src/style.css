@@ -21,6 +21,12 @@ font-family: 'Roboto', sans-serif; */
 /* font-family: 'Oxygen', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
 /* font-family: 'Zilla Slab', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Manuale:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus&family=Markazi+Text:wght@400;500;600;700&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+/* font-family: 'Londrina Solid', cursive;
+font-family: 'Manuale', serif;
+font-family: 'Marcellus', serif;
+font-family: 'Markazi Text', serif;
+font-family: 'Martel Sans', sans-serif; */
 @font-face {
     font-family: AthelasBold;
     src: url("./fonts/Athelas-Bold.ttf");
@@ -1545,8 +1551,8 @@ footer {
 
 #header.chandraprakas {
     background-color: #EDF3A8;
-    /* gap: 2rem; */
     margin: 0;
+    /* gap: 2rem; */
     justify-content: center;
 }
 
@@ -1555,19 +1561,20 @@ footer {
 }
 
 .chand #navbar .brand {
-    margin-right: 10px;
+
     color: #192915;
 }
 
 .chand #navbar a {
     color: #192915;
-
+    margin-right: 10px;
 }
 
 .chand .register_btn {
     background-color: #192915;
     color: white !important;
 }
+
 #header.chandraprakas  {
     /* height: 100vh; */
     width: 100%;
@@ -1590,9 +1597,9 @@ footer {
     font-size: 2vw;
     color: #192915;
 }
+
 #header.chandraprakas .col.img {
     position: relative;
-    /* flex: 2; */
     display: flex;
     align-items: center;
     height: 100%;
@@ -1658,6 +1665,7 @@ footer {
 #section2 .row-2 .box_sm{
     flex: 2;
 }
+
 .chand {
     background-color: #000;
 }
@@ -1760,6 +1768,7 @@ footer {
 .teacher .swiper-slide .name {
     font-size: 1.5rem;
 }
+
 .teacher .swiper-slide .tag {
     display: flex;
     gap: .5rem;
@@ -1809,6 +1818,7 @@ footer {
 #mission {
     background: url('./../img/circles.png') no-repeat -190% 20%/80%;
 }
+
 #mission .courses {
     max-width: 1000px;
     width: 70%;
@@ -1829,6 +1839,7 @@ footer {
     letter-spacing: 1px;
     font-size: 1.2rem;
 }
+
 #mission .courses .course .right img{
     width: 30px;
 }
@@ -1874,6 +1885,7 @@ footer {
     width: 25px;
     height: 25px;
 }
+
 .mission_slider .swiper-slide .title .white {
     color: white;
 }
@@ -1887,18 +1899,18 @@ footer {
 }
 
 .mission_slider .swiper-slide .para {
-       /* max-width: 600px; */
-       text-align: left;
-       width: 70%;
-       font-family: 'Unica One', cursive !important;
-       font-size: 1.4rem;
-   
+    /* max-width: 600px; */
+    text-align: left;
+    width: 70%;
+    font-family: 'Unica One', cursive !important;
+    font-size: 1.4rem;
 }
 
 .mission_slider .swiper-slide .title {
     font-size: 6rem;
     font-family: 'Unica One', cursive !important;
     margin-bottom: 4rem;
+
 }
 
 .mission_slider .swiper-slide {
@@ -1952,7 +1964,6 @@ footer {
     left: 5%;
     height: 50px;
 }
-
 .chand .numbers .num-container p {
     color: #95A860;
 }
@@ -2006,6 +2017,7 @@ footer {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     border-radius: 12px;
+
 }
 
 .chand_footer {
@@ -2328,8 +2340,8 @@ footer {
 }
 
 .dhyu #header {
-    aspect-ratio: 16/8;
-    padding: 6rem 0;
+    /* aspect-ratio: 16/8; */
+    padding: 5rem 0 1rem 0;
     background: url('./../img/dhyu_bg.png') no-repeat center center/cover;
 }
 
@@ -2344,29 +2356,31 @@ footer {
 }
 
 .dhyu #header .content .dhyutidhara {
-    font-size: 7vw;
+    font-size: 12vw;
     color: #C08261;
     /* -webkit-text-stroke-width: 9px; */
     font-weight: bold;
-    letter-spacing: 18px;
+    margin-top: -5%;
+    font-family: 'Martel Sans', sans-serif;
 }
 
 .dhyu #header .content .dhyutidhara .dhy {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #C08261;
+    -webkit-text-stroke: 3px #C08261;
 }
 
 .dhyu #header .content .dhyutidhara .ara {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #C08261;
+    -webkit-text-stroke: 3px #C08261;
 
-}
+}   
 
 .dhyu #header .content .slogan {
-    font-size: 4rem;
+    font-size: 7vw;
     font-weight: 500;
     text-align: center;
-    max-width: 1100px;
+    font-family: 'Markazi Text', serif;
+    margin-top: -6%;
 }
 
 .dhyu #header .content .slogan .white {
@@ -2379,11 +2393,12 @@ footer {
     backdrop-filter: blur(8px);
     background-color: rgba(255, 255, 255, 0.233);
     color: white;
-    padding: 15px;
-    font-weight: 600;
+    padding: 15px 5%;
+    font-weight: 500;
     letter-spacing: 2px;
     border-radius: 12px;
-
+    font-size: 2.2vw;
+    font-family: 'Markazi Text', serif;
 }
 
 #community {
