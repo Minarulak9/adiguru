@@ -652,7 +652,7 @@ footer {
 
 .footer-container h2 {
     color: #FEFEFE;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Petrona', sans-serif;
     font-size: 3vw;
     font-weight: 600;
 
@@ -708,7 +708,7 @@ footer {
 .icons span {
     padding: 0 1rem;
     color: #E4DDD9;
-    font-size: 1.8vw;
+    font-size: 1.3vw;
     font-weight: 500;
 
 }
@@ -1377,14 +1377,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 65%;
+    width: 68%;
     height: 650px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 #contact .box {
-    width: 70%;
+    width: 100%;
     height: auto;
     background-color: #fff;
 
@@ -1449,17 +1449,18 @@ footer {
 
 #contact .box1 h5 {
     color: #000;
-    font-family: 'Poppins' sans-serif;
-    font-size: 23px;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 1.5rem;
     font-weight: 700;
-    padding: 3rem 2rem;
+    padding: 3rem 1.5rem;
 }
 
 #contact .box2 h5 {
     color: #fff;
-    font-family: 'Poppins' sans-serif;
-    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
     font-weight: 700;
+    padding: 3rem 0;
 }
 
 
@@ -1473,6 +1474,7 @@ footer {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 1.7rem;
 }
 
 #contact .box-top img {
@@ -1514,7 +1516,7 @@ footer {
 #contact .box2 .email-container p {
     padding: 1rem 0;
     color: #FFF;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins' , sans-serif;
     font-size: 17px;
     font-weight: 600;
 

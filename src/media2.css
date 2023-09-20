@@ -218,6 +218,14 @@
         width: 100%;
     }
 
+    #contact .background-image {
+       
+        width: 100%;
+        height: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     #contact .box1 h5 {
         padding: 1rem;
     }
