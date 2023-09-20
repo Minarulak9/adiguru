@@ -13,11 +13,9 @@
     }
 
     #navbar-blog .search_bar {
-        /* height: 55px;
-        width: 400px; */
         width: 100%;
-        font-size: 20px;
-        padding: 0 4rem;
+        font-size: 0.8rem;
+        padding-left: 3rem;
     }
 
     #navbar-blog .search_box span {
@@ -47,6 +45,14 @@
 
     #blog .person-details .top svg {
         display: none;
+    }
+
+    #blog .top span {
+        font-size: 1.4rem;
+    }
+
+    #blog .context p {
+        font-size: 1.3rem;
     }
 
     #bottom.bottom-container {
@@ -228,7 +234,8 @@
         height: 2.5rem;
         width: 6rem;
     }
-    #contact .box2 .info-container{
+
+    #contact .box2 .info-container {
         height: auto;
     }
 

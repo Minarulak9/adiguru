@@ -17,7 +17,8 @@
 font-family: 'Roboto', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&display=swap');
 /* font-family: 'Petrona', serif; */
-
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Petrona:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&display=swap');
+/* font-family: 'Oxygen', sans-serif; */
 
 @font-face {
     font-family: AthelasBold;
@@ -664,7 +665,7 @@ footer {
 .footer-container a {
     color: #E3E2E2;
     text-decoration: none;
-    font-family: 'Petrona' sans-serif;
+    font-family: 'Petrona', sans-serif;
     font-size: 1.7vw;
     font-weight: 500;
 
@@ -984,44 +985,55 @@ footer {
 
 /* blog start here */
 #navbar-blog .logo {
-    padding: 2.5rem;
+    padding: 1.9rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
 }
 
+#navbar-blog .logo .img {
+    display: flex;
+    align-items: baseline;
+}
+
+#navbar-blog .logo img {
+    width: 3.8rem;
+}
+
 #navbar-blog .search_bar {
-    height: 55px;
-    width: 400px;
-    font-size: 20px;
-    padding: 0 4rem;
+    height: 2.5rem;
+    width: 23vw;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 4rem;
 }
 
 #navbar-blog .search_box span {
-    font-size: 40px;
+    font-size: 2.5rem;
     padding: 0.5rem;
 }
 
 #blog {
-    padding: 5rem;
+    padding: 8.8rem 5rem 3rem;
 }
 
 #blog h2 {
     color: #000;
-    font-size: 70px;
+    font-size: 4.7rem;
     font-weight: 650;
-    font-family: 'Petrona' sans-serif;
+    font-family: 'Petrona', sans-serif;
 
 }
 
 #blog .person {
-    margin-top: 6rem;
+    margin-top: 8.2rem;
     display: flex;
     width: auto;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-left: 0.2rem;
 }
 
 #blog .person-details {
@@ -1038,30 +1050,30 @@ footer {
 
 #blog .top p {
     color: #000;
-    font-family: 'Petrona' sans-serif;
-    font-size: 26px;
-    font-weight: 600;
+    font-family: 'Petrona', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
 
 }
 
 #blog .top span {
     color: #6F6E6E;
-    font-size: 24px;
-    font-weight: 600;
-    font-family: 'Petrona' sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Petrona', sans-serif;
     padding: 4px;
 }
 
 #blog .date h5 {
     color: #000;
-    font-family: 'Petrona' sans-serif;
-    font-size: 18px;
+    font-family: 'Petrona', sans-serif;
+    font-size: 1rem;
     font-weight: 600;
 
 }
 
 #blog .person-details img {
-    width: 100px;
+    width: 5.4rem;
 }
 
 #blog .details {
@@ -1070,11 +1082,11 @@ footer {
 }
 
 #blog .share {
-    width: 250px;
+    width: 14vw;
     display: flex;
     flex-direction: row;
     align-items: end;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #blog-container {
@@ -1083,18 +1095,27 @@ footer {
 }
 
 .share span {
-    font-size: 50px;
-    width: 55px;
-    height: 48px;
+    font-size: 4rem;
 }
 
 #blog .share a {
     text-decoration: none;
     color: #000;
 }
-
+#blog .context{
+    padding: 0 1rem;
+}
 #blog .context .img1 img {
     width: 100%;
+}
+
+#blog .context p {
+    color: #000;
+    font-family: 'Petrona',sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 #blog .context .img1 {
@@ -1121,8 +1142,8 @@ footer {
 
 
 #blog .comment {
-    margin: 4rem 0;
-    padding: 4rem 0;
+    margin: 4rem 0 0;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1139,21 +1160,20 @@ footer {
 #blog .comment .name input {
     width: 47%;
     height: 90px;
-    border: 4px solid #000;
+    border: 5px solid #000;
     color: #000;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 25px;
     font-weight: 600;
 
     padding: 0 20px;
 }
-
 #blog .comment textarea {
     width: 100%;
-    border: 3px solid #000;
+    border: 5px solid #000;
     height: 350px;
     color: #000;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 25px;
     font-weight: 600;
     padding: 20px;
@@ -1177,7 +1197,7 @@ footer {
     flex-shrink: 0;
     border: none;
     color: #FFF;
-    font-family: 'Oxygen' sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 2rem;
     font-style: normal;
     font-weight: 600;
@@ -1187,7 +1207,7 @@ footer {
 #bottom.bottom-container {
     display: flex;
     flex-direction: column;
-    padding: 6rem;
+    padding: 5rem 6rem;
     background-color: #FF9D67;
 }
 
@@ -1207,32 +1227,34 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    padding: 2rem 0;
 }
 
 #bottom .person-follow p {
     color: #000;
-    font-family: 'Petrona' sans-serif;
-    font-size: 80px;
+    font-family: 'Petrona', sans-serif;
+    font-size: 6rem;
     font-weight: 600;
 
 }
 
 #bottom .person-follow span {
     color: #4D4D4D;
-    font-size: 25px;
+    font-size: 1.8rem;
+    font-family: 'Petrona', sans-serif;
     font-weight: 500;
 
 }
 
 #bottom .person-follow button {
-    width: 5rem;
+    width: 22vw;
     height: 85px;
     border-radius: 58px;
-    font-family: 'Petrona' sans-serif;
+    font-family: 'Petrona', sans-serif;
     border: none;
     background: #f18140;
     color: #FFF;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 700;
     transition: ease 0.3s;
 
@@ -1257,9 +1279,9 @@ footer {
 
 #bottom .person-activity h4 {
     color: #000;
-    font-family: 'Petrona' sans-serif;
-    font-size: 45px;
-    font-weight: 500;
+    font-family: 'Petrona', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
 
 }
 
@@ -1281,8 +1303,8 @@ footer {
 
 #bottom .activity-details h5 {
     color: #000;
-    font-size: 50px;
-    font-family: 'Petrona' sans-serif;
+    font-size: 3.2rem;
+    font-family: 'Petrona', sans-serif;
     font-weight: 600;
     padding: 1.7rem 0;
 }
@@ -1301,16 +1323,19 @@ footer {
 }
 
 #bottom .activity-details .react #icon {
-    font-size: 50px;
-    font-weight: 100;
+    font-size: 3rem;
+    font-weight: 50;
     color: #000;
 }
 
-#bottom .activity-details .react span {
-    color: #626262;
-    font-size: 17px;
+#bottom .activity-details .react #txt {
+    color: #000;
+    font-size: 1.2rem;
     font-weight: 600;
-
+    font-family: 'Petrona', sans-serif;
+}
+#bottom .btn_all{
+    padding-bottom: 7rem;
 }
 
 #bottom .btn_all button {
@@ -1321,7 +1346,7 @@ footer {
     color: #000;
     font-size: 25px;
     font-weight: 650;
-    font-family: 'Petrona' sans-serif;
+    font-family: 'Petrona', sans-serif;
     background-color: transparent;
 }
 
@@ -1919,7 +1944,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 1rem ;
+    padding-top: 1rem;
 }
 
 #blogs-top .top-container .adiguru-blogs .top h2 {
@@ -2039,7 +2064,7 @@ footer {
 
 #blogs-container .cont .blogs .blog p {
     color: #000;
-    font-family: 'Petrona',sans-serif;
+    font-family: 'Petrona', sans-serif;
     font-size: 20px;
     font-weight: 600;
 
@@ -2051,7 +2076,7 @@ footer {
     border: none;
     background: #e27651;
     color: #FFF;
-    font-family: 'Petrona',sans-serif;
+    font-family: 'Petrona', sans-serif;
     font-size: 18px;
     font-weight: 700;
     transition: ease 0.3s;
@@ -2070,7 +2095,7 @@ footer {
 
 #explore .explore-container h3 {
     color: #000;
-    font-family: 'Poppins' , sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 80px;
     font-weight: 700;
 
@@ -2111,7 +2136,7 @@ footer {
     color: #444;
     font-size: 17px;
     font-weight: 400;
-    font-family: 'Petrona',sans-serif;
+    font-family: 'Petrona', sans-serif;
 
 }
 
@@ -2159,7 +2184,7 @@ footer {
     color: #000;
     font-size: 1.8vw;
     font-weight: 600;
-    font-family: 'Petrona',sans-serif;
+    font-family: 'Petrona', sans-serif;
 }
 
 #blogs-bottom .blogs-bottom {
