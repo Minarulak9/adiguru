@@ -237,12 +237,15 @@
         gap: 1rem;
 
     }
-    #blogs-top .top-container .adiguru-blogs .bottom .list a{
+
+    #blogs-top .top-container .adiguru-blogs .bottom .list a {
         font-size: 1.2rem;
     }
-    #blogs-top .top-container .adiguru-blogs .bottom{
+
+    #blogs-top .top-container .adiguru-blogs .bottom {
         padding: 0;
     }
+
     #blogs-top .top-container .adiguru-blogs .bottom .social-icons {
         display: flex;
         flex-direction: row;
@@ -258,9 +261,11 @@
         display: flex;
         flex-direction: column;
     }
-    #blogs-container .cont .blogs{
+
+    #blogs-container .cont .blogs {
         margin: 0;
     }
+
     #blogs-container .blogs-container .cont {
         width: 100%;
         padding: 2rem;
@@ -271,18 +276,22 @@
         text-align: center;
         gap: 0;
     }
-    #explore .explore-container .more-blogs-container{
+
+    #explore .explore-container .more-blogs-container {
         padding-bottom: 3rem;
     }
+
     #explore .explore-container .more-blogs-container .more-blogs {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
         padding: 1.5rem 0;
     }
-    #explore .more-blogs-container .more-blogs .text-container p{
+
+    #explore .more-blogs-container .more-blogs .text-container p {
         font-size: 4vw;
     }
+
     #explore .more-blogs-container .more-blogs .text-container .post-details {
         display: flex;
         justify-content: center;
@@ -292,9 +301,11 @@
     #explore .explore-container .more-blogs-container .more-blogs img {
         width: 100%;
     }
-    #explore .more-blogs-container .more-blogs .text-container h5{
+
+    #explore .more-blogs-container .more-blogs .text-container h5 {
         font-size: 8vw;
     }
+
     #explore .explore-container h3 {
         font-size: 4rem;
     }
@@ -306,12 +317,15 @@
     #explore .more-blogs .text-container .post-details .staff-dp {
         width: 7rem;
     }
-    #explore .post-details .staff-text h6{
+
+    #explore .post-details .staff-text h6 {
         font-size: 4vw;
     }
-    #explore .post-details .staff-text{
+
+    #explore .post-details .staff-text {
         padding: 0;
     }
+
     #blogs-bottom .blogs-bottom h5 {
         text-align: center;
         font-size: 3vw;
@@ -324,10 +338,12 @@
         flex-direction: column;
         margin: 2rem 0;
         width: 80%;
+        justify-content: space-between;
     }
 
-    #contact .box {
+    #contact .box1 {
         width: 100%;
+    
     }
 
     #contact .background-image {
@@ -339,24 +355,39 @@
     }
 
     #contact .box1 h5 {
-        padding: 1rem;
+        padding: 2rem 1.6rem 0;
     }
 
     #contact .box1 .sent_msg {
         padding: 2rem;
     }
-
+    #contact .box1 .sent_msg input {
+        margin: 0.7rem 0;
+    }
     #contact .box1 .box1-bottom img {
         width: 50%;
     }
 
     #contact .box1 .box1-bottom button {
-        height: 2.5rem;
-        width: 6rem;
-    }
+        height: 2.2rem;
+        width: 5rem;
+        font-size: 1rem;
 
+    }
+    #contact .box-top img{
+        padding: 1.2rem;
+    }
+    #contact .box2 h5{
+        padding: 1.2rem 0;
+    }
     #contact .box2 .info-container {
         height: auto;
     }
 
+}
+
+@media only screen and ((min-width:900px) and (max-width:1650px)) {
+    #contact .background-image {
+        background-size: contain;
+    }
 }
