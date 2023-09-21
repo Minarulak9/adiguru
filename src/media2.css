@@ -343,7 +343,7 @@
 
     #contact .box1 {
         width: 100%;
-    
+
     }
 
     #contact .background-image {
@@ -361,9 +361,11 @@
     #contact .box1 .sent_msg {
         padding: 2rem;
     }
+
     #contact .box1 .sent_msg input {
         margin: 0.7rem 0;
     }
+
     #contact .box1 .box1-bottom img {
         width: 50%;
     }
@@ -374,16 +376,32 @@
         font-size: 1rem;
 
     }
-    #contact .box-top img{
+
+    #contact .box-top img {
         padding: 1.2rem;
     }
-    #contact .box2 h5{
+
+    #contact .box2 h5 {
         padding: 1.2rem 0;
     }
+
     #contact .box2 .info-container {
         height: auto;
     }
 
+    #join_us1 .join-container .input-container {
+        flex-direction: column;
+    }
+
+    #join_us1 .join-container .input-container input {
+        width: 80%;
+        height: 70px;
+    }
+
+    #join_us1 .join-container .input-container button {
+        width: 30%;
+        height: 65px;
+    }
 }
 
 @media only screen and ((min-width:900px) and (max-width:1650px)) {
