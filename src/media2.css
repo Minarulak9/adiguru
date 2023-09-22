@@ -402,6 +402,13 @@
         width: 30%;
         height: 65px;
     }
+    .mission_slider .swiper-slide .para{
+        width: 100%;
+        text-align: center;
+    }
+    .mission_reviews .review{
+        gap: 1rem;
+    }
 }
 
 @media only screen and ((min-width:900px) and (max-width:1650px)) {
