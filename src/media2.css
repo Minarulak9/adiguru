@@ -402,17 +402,68 @@
         width: 30%;
         height: 65px;
     }
-    .mission_slider .swiper-slide .para{
+
+    .mission_slider .swiper-slide .para {
         width: 100%;
         text-align: center;
     }
-    .mission_reviews .review{
+
+    .mission_reviews .review {
         gap: 1rem;
     }
+
+    #community {
+        height: 60vh;
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    #community .details {
+        flex: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    #community .title {
+        font-size: 8vw;
+    }
+
+    #community .para {
+        font-size: 3vw;
+    }
+
+    #community .boxes {
+        flex: 0;
+        flex-wrap: nowrap;
+    }
+
+    #community .box {
+        flex: 0 0 30%;
+    }
+
+    #community .round {
+        bottom: 120px;
+    }
+
+    #peoples {
+        height: fit-content;
+        padding: 8rem 2rem;
+    }
+    #join_us1{
+        height: fit-content;
+        padding: 2rem;
+    }
+
 }
 
 @media only screen and ((min-width:900px) and (max-width:1650px)) {
     #contact .background-image {
         background-size: contain;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #community {
+        height: 50vh;
     }
 }

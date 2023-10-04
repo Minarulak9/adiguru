@@ -32,14 +32,17 @@ font-family: 'Martel Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Istok+Web:ital@0;1&display=swap');
 /* font-family: 'Inter', sans-serif;
 font-family: 'Istok Web', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Mako&display=swap');
+/* font-family: 'Mako', sans-serif; */
+
 
 @font-face {
-    font-family: AthelasBold;
+    font-family: 'AthelasBold';
     src: url("./fonts/Athelas-Bold.ttf");
 }
 
 @font-face {
-    font-family: Athelas;
+    font-family: 'Athelas';
     src: url("./fonts/Athelas-Regular.ttf");
 }
 
@@ -2816,8 +2819,8 @@ footer {
 #join_us1 .join-container .input-container input {
     width: 500px;
     height: 80px;
-    border-radius: 30px;
-    border: 2px solid #000;
+    border-radius: 25px;
+    border: 1.5px solid #000;
     background: #FAFAFA;
     color: #606060;
     font-size: 23px;
