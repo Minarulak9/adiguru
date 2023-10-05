@@ -326,7 +326,7 @@ nav a span {
     left: 0;
     width: 26%;
     aspect-ratio: 1/1;
-    background: url('./../img/dots.png')no-repeat left top/contain;
+    background: url('./../img/dots.webp')no-repeat left top/contain;
     z-index: -1;
 }
 
@@ -658,7 +658,7 @@ h4 {
 
 footer {
     padding: 2rem 0 0 0;
-    background: url("../img/Rectangle 39.png");
+    background: url("../img/Rectangle 39.webp");
     object-fit: cover;
     font-family: 'Poppins', sans-serif !important;
 }
@@ -962,7 +962,7 @@ footer {
     left: 0;
     width: 35%;
     aspect-ratio: 3/1;
-    background: url('./../img/dots.png') round left top/contain;
+    background: url('./../img/dots.webp') round left top/contain;
     z-index: -1;
 
 }
@@ -1802,7 +1802,7 @@ footer {
 #knowledge {
     width: 100%;
     aspect-ratio: 15/7;
-    background: url(./../img/leafe_bg.png) no-repeat center center/cover;
+    background: url("../img/leafe_bg.webp") no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1825,7 +1825,7 @@ footer {
 }
 
 #mission {
-    background: url('./../img/circles.png') no-repeat -190% 20%/80%;
+    background: url('./../img/circles.webp') no-repeat -190% 20%/80%;
 }
 
 #mission .courses {
@@ -2149,7 +2149,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../img/blogs-left-texture.png'), lightgray 50% / cover no-repeat;
+    background: url('../img/blogs-left-texture.webp'), lightgray 50% / cover no-repeat;
 }
 
 #blogs-container .container1 .stories .text {
@@ -2488,7 +2488,7 @@ footer {
 
 
 .dhyu_footer {
-    background: url('./../img/dhyu_footer_bg.png');
+    background: url('./../img/dhyu_footer_bg.webp');
 }
 
 #quotes {
