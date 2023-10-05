@@ -8,7 +8,7 @@
     #header.container.chandraprakas{
         margin: 0;
         padding: 3rem 1rem;
-        background: url('./../img/chandraprakash.png') no-repeat center center/cover;
+        background: url('./../img/chandraprakash.webp') no-repeat center center/cover;
         position: relative;
         z-index: 1;
     }
@@ -73,7 +73,7 @@
     }
     #navbar{
         padding: 0 .8rem;
-        height: 10vh;
+        height: 7vh;
     }
     .btn-container{
         margin-top: 1rem;
@@ -266,7 +266,7 @@
         margin-right: 0;
     }
     #navbar{
-        padding: 0 .3rem;
+        padding: 0 1rem;
     }
     .login_btn{
         display: none;
@@ -314,10 +314,10 @@
         flex: 0 0 50%;
     }
     #region .container .box .para{
-        font-size: 3vw;
+        font-size: 2vw;
     }
     .col p{
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .service .card h3{
         font-size: 1rem;
@@ -340,7 +340,7 @@
     }
     #reviews h2{
         padding: 0;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     /* .reviews{
         height: 360px;
