@@ -138,9 +138,9 @@ nav a span {
     transition: .4s ease;
 }
 
-nav a:hover span {
+/* nav a span {
     transform: rotate(180deg);
-}
+} */
 
 /* Style the dropdown menu */
 .dropdown-content::-webkit-scrollbar {
@@ -157,16 +157,16 @@ nav a:hover span {
     display: flex;
     flex-direction: column;
     opacity: 0;
-    z-index: 1;
+    z-index: 100;
     overflow: hidden;
     align-items: flex-start;
 }
 
-.dropdown-content:hover+a>span {
+.material-symbols-outlined.active {
     transform: rotate(180deg);
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown .dropdown-content.active {
     opacity: 1;
     max-height: 400px;
     overflow: auto;
@@ -844,7 +844,7 @@ footer {
     /* text-align: center; */
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-weight: 500;
 }
 
@@ -1751,10 +1751,7 @@ footer {
     border-radius: 25px;
 }
 
-#vision .teacher {
-    padding: 3rem;
-    background-color: #95A8601A;
-}
+
 .teacher .swiper-pagination {
     position: static;
     margin-top: 2rem;
@@ -2414,12 +2411,12 @@ footer {
 }
 
 #community {
-    padding: 6rem 4rem;
+    padding: 6rem 4rem 9rem 4rem;
     display: flex;
     gap: 6vw;
     background-color: #9A3B3B;
     width: 100%;
-    aspect-ratio: 16/8;
+    /* aspect-ratio: 16/8; */
     position: relative;
     overflow: hidden;
 }
@@ -2522,7 +2519,7 @@ footer {
 }
 
 #peoples .title {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     color: white;
     font-weight: 600;
     max-width: 350px;
@@ -2629,7 +2626,7 @@ footer {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 120px;
+    height: 70px;
 }
 
 .custom-shape-divider-top-1694927748 .shape-fill {
@@ -2663,7 +2660,7 @@ footer {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 120px;
+    height: 90px;
 }
 
 .custom-shape-divider-top-1694927748 .shape-fill {

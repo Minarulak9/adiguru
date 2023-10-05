@@ -415,9 +415,8 @@
     }
 
     #community {
-        height: 60vh;
         flex-direction: column;
-        padding: 3rem;
+        padding: 3rem 3rem 6rem 3rem;
     }
 
     #community .details {
@@ -444,7 +443,7 @@
     }
 
     #community .round {
-        bottom: 120px;
+        bottom: 50px;
     }
 
     #peoples {
@@ -456,6 +455,12 @@
         padding: 2rem;
     }
 
+
+}
+@media only screen and ((min-width:900px) and (max-width:1200px)) {
+    #community .boxes{
+        gap: 2vh;
+    }
 }
 
 @media only screen and ((min-width:900px) and (max-width:1650px)) {
@@ -463,9 +468,22 @@
         background-size: contain;
     }
 }
-
+    
 @media only screen and (max-width:500px) {
-    #community {
-        height: 50vh;
+    #quotes .text{
+        padding: 1rem;
+    }
+    .custom-shape-divider-top-1694927748 svg{
+        height: 35px;
+    }
+    #peoples{
+        padding: 3rem 2rem;
+    }
+    .teacher .swiper-slide .img img{
+        width: 70%;
+    }
+    #vision .sub_heading{
+        font-size: 3.5rem;
+        padding-bottom: 2rem;
     }
 }
